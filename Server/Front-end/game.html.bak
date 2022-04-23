@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Pandemonium</title>
+	<style>
+		body{
+		padding:0;
+		margin: 0;
+		overflow: hidden;
+	</style>
+  </head>
+  <body style="text-align: center" >
+    <canvas id="unity-canvas" width=1920px height= 1080px style="width: 100%; height: 100%; background: #231F20"></canvas>
+    <script src="Build/buildTest.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/buildTest.data",
+        frameworkUrl: "Build/buildTest.framework.js",
+        codeUrl: "Build/buildTest.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "prototype-nft-lun",
+        productVersion: "0.1",
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+      }).then(res=>{
+        console.log(res)
+        console.log('res')
+        res.SendMessage( 'DataProvider', 'GetPlayerDataFromSite' , 'ivgtw.wam test');
+//window.unityInstance = 
+        //window.unityInstance.SendMessage( 'DataProvider', 'GetPlayerDataFromSite' , 'cxnwu.wam petuh');
+//first user cxnwu.wam
+//second user euiog.wam
+      })
+    </script>
+  </body>
+</html>

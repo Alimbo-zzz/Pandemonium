@@ -1,0 +1,100 @@
+{
+	"pack_1":[
+		{
+			"img": "1",
+			"en":{
+				"title":"Naiada’s older sister",
+				"text": "She looks just like a real girl, but she lives under water and wants to meet you. Does that sound tempting? Don't fall for it, her sharp teeth can easily tear your heart apart.",
+				"bestiary":{
+					"title":"",
+					"text": "The naiads-explorers are more common in the waters of Pandemonium than any other type. They are young (by naiad standards), pretty wild and eager to bring any human stuff into their settlement. <br/> It is generally accepted that their love of wandering is due to their species, however, there is growing evidence that it is some kind of initiation ritual for them, the success of which depends on the rarity of what they find. This means that they value humans themselves (not always living ones) more than anything else."
+				}
+			},
+			"ru":{
+				"title":"Старшая сестра Наяды",
+				"text": "Совсем как настоящая девушка, только живёт под водой и хочет познакомиться с тобой. Соблазнительно? Не ведись, ведь её острые зубки могут с легкостью разорвать твое сердце на части. ",
+				"bestiary":{
+					"title":"Старшая сестра Нaяда",
+					"text": "Наяд-исследовательниц в водах Пандемониума можно встретить чаще других. Они юны (по меркам Наяд), диковаты и жаждут притащить в родное поселение какую-нибудь человеческую безделушку.<br/>Принято считать, что любовь к скитальчеству у них обусловлена видом. Однако находится всё больше свидетельств того, что их путешествия являются чем-то вроде обряда инициации, успех которого зависит от редкости найденного. Это значит, что сами люди (не всегда живые) ценятся у них больше всего."
+				}
+			}
+		},
+		{
+			"img": "2",
+			"en":{
+				"title":"Naiada’s evil sister",
+			 	"text": "Oh, no you’ve angered Neyada’s older sister! How do I know? She’s following you along the shore. Don’t let her cute swimsuit seduce you – these are just hunting equipment.",
+				"bestiary":{
+					"title":"",
+					"text": "Naiads can be found not only in their ancestral settlements and the waters of Pandemonium. Some of them inhabit coastal astral cities (they live mostly on beaches and in the shrines of water gods). <br/> They try to stay close to the dealers of curiosities, though most of them are penniless and do not seek to earn money. For them, the surest way to get what they want is to seduce unsuspecting travelers. If the chosen victim resists, they use their sharp teeth. "
+				}
+			},
+			"ru":{
+				"title":"Злая сестра Наяды",
+				"text": "О, нет! Ты разозлил старшую сестру Наяды! Откуда я знаю? Вон она, преследует тебя вдоль берега. Не заглядывайся на её прелестное бикини - это лишь охотничья экипировка. ",
+				"bestiary":{
+					"title":"Злая сестра Наяды",
+					"text": "Наяд можно встретить не только в родовых поселениях и водах Пандемониума. Часть из них обитает в прибрежных астральных городах (в основном на пляжах или в святилищах водных богов). Они стараются держаться поближе к торговцам диковинок, хотя чаще всего не имеют ни гроша за душой и не стремятся зарабатывать. Для них самый верный способ получить желаемое - обольстить ничего не подозревающего путника. Если же выбранная жертва начинает сопротивляться, то в ход идут острые зубки."
+				}
+			}
+		},
+		{
+			"img": "3",
+			"en":{
+				"title":"Naiada’s tsundere sister",
+				"text": "Wait, did she just  call you oni–chan? You are in great danger! It seems like she’s going to kill you right now, isn't she? I don’t know, just figure it out yourself, baka!",
+				"bestiary":{
+					"title":"",
+					"text": "The more experienced naiads become, the more they become immersed in human mass culture. <br/> Many of them, for example, are no longer surprised by the existence of movies or anime, though their astral video projections are still quite rare. <br/> Because of this, naiads most often collect only fan merch or make clothing that replicates the most famous images. <br/> It is believed that whoever helps a naiad with 'cosplay' can get rich, because the dyes for the fabric of the demoness are extracted from deep-sea coral. The price of such on the black market is exorbitant!"
+				}
+			},
+			"ru":{
+				"title":"Сестра Наяды Цундере",
+				"text": "Она что, назвала тебя братиком? Ты в ужасной опасности! Похоже, она убьет тебя на месте. Или же нет? Откуда мне знать, сам догадайся, бака!",
+				"bestiary":{
+					"title":"Сестра Наяды Цундере",
+					"text": "Чем опытнее становятся наяды, тем больше они погружаются в человеческую массовую культуру. <br/>Многих из них, например, уже не удивляет существование фильмов или аниме, хотя их астральные видеопроекции по-прежнему остаются довольно редкой штукой. <br/> Из-за этого наяды чаще всего собирают лишь фанатскую атрибутику, или изготавливают одежду, повторяющую самые знаменитые образы. Считается, что тот, кто поможет наяде с “косплеем” может разбогатеть, ведь красители для ткани демонессы добывают из глубоководных кораллов. Цена таких на черном рынке просто заоблачная! "
+				}
+			}
+		},
+		{
+			"img": "4",
+			"en":{
+				"title":"Naiada’s Soviet sister",
+				"text": "What?!! Why did you tell her about USSR??! Now she wants not only to catch you, but also to share you with all her sisters.",
+				"bestiary":{
+					"title":"",
+					"text": "The naiads of the second plane are aquatic mermaid demons who parasitize on human culture. They appropriate sunken human ships and things that have entered Pandemonium through the astral stream. Some of them are so clever that they create settlements based on the political ideologies of the inhabitants of Earth. <br/> Travelers often say that not far away from the ice wastelands of Eigu you can meet communist neiads. They prefer the pioneer uniforms to any other clothing and speak fluent Russian. In an effort to create equality, they share everything with their sisters, including potential partners."
+				}
+			},
+			"ru":{
+				"title":"Советская сестра Наяды",
+				"text": "Что?!! Зачем ты рассказал ей об СССР??! Теперь она хочет не просто тебя поймать, но и разделить со своими сестрами.",
+				"bestiary":{
+					"title":"Советская сестра Наяды",
+					"text": "Наяды второго плана - водные демоны-русалки, паразитирующие на культуре людей. Они присваивают себе затонувшие человеческие корабли и вещи, попавшие в Пандемониум через астральный поток. Некоторые из них настолько умны, что создают поселения на основе политических идеологий жителей Земли. <br/>Путешественники рассказывают, что недалеко от ледяных пустошей Эйгу можно встретить наяд-коммунисток. Они предпочитают пионерскую форму любой другой одежде и умеют бегло говорить на русском языке. В попытке создать равенство они делятся с сестрами всем, в том числе и потенциальными партнерами."
+				}
+			}
+		},
+		{
+			"img": "5",
+			"en":{
+				"title":"Waifu Naiada’s sister",
+				"text": "Oh, did she propose to you? Well, let’s hope that “happily ever after” will be really long... No, no, i’m not hinting on anything , just saying!",
+				"bestiary":{
+					"title":"",
+					"text": "Among the inhabitants of Pandemonium, it is commonly believed that naiads and serious relationships are incompatible, but marrying a human is not only an incredible good fortune for them, but also a desirable goal. <br/> Naiads don’t have documents, so “marriage” looks like a series of magic rituals. Only one of them is known for certain: the night of the union, the naiads exchange bites with the chosen one. <br/> The fate of the people who once married the demonesses could not be ascertained (probably because of special secrecy)."
+				}
+			},
+			"ru":{
+				"title":"Сестра Наяды Вайфу",
+				"text": "Да ну, она сделала тебе предложение? Что ж, будет надеяться, что ваше 'долго и счастливо' будет очень долгим...  Да нет, я ни на что не намекаю, просто говорю!",
+				"bestiary":{
+					"title":"Сестра Наяды Вайфу",
+					"text": "Среди жителей Пандемониума принято считать, что наяды и серьезные отношения несовместимы. Однако свадьба с человеком для них не только невероятная удача, но и желанная цель. У наяд нет документов, поэтому “заключение брака” напоминает скорее серию магических ритуалов. Доподлинно известно лишь об одном из них: в ночь объединения наяды обмениваются с избранником укусами. Дальнейшую судьбу людей, отдавших демонессам свою руку и сердце, выяснить не удавалось (вероятно из-за особой секретности). "
+				}
+			}
+		}
+
+	]
+}

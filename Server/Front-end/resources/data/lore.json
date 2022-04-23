@@ -1,0 +1,74 @@
+{
+	"lore":[
+		{
+			"id":"map_ice",
+			"img":"1",
+			"en":{
+				"title":"The ICE Wastelands of Eigu",
+				"text":[
+					"The ice wastelands of Eigu are located in the north of the first plane.The extreme cold that prevails in these areas has penetrated sodeeply into the ground that it has begun to provoke strong seismic activity.Because of this, huge faults resembling snow-covered, incredibly deep canyons as wellas smaller faults called ‘cracks’ or ‘crusts’ can be found in the ice wastelands.",
+					"These faults are not just a natural anomaly, but a valuable resource, because they provide coaland titanite* to the few inhabitants of the wastelands. On either side of the largest fault are the astral citiesof Nei Alurg and Tetraglas. They are populated by mechanical scientists, the godless, and exiled mages.",
+					"Far from the faults, only the fittest survive. These are the lands of giants,dangerous predators and creeping plants.",
+					"Wanderes (especially demons) are treated with apprehension in the wastelands,for warm flesh and good equipment make attractive prey."
+				],
+				"placeholder":"*Titanite – a very rare mineral that is mined in the rifts between the planes. Formed from the blood of dead titans, it is thermoiuminescent, which means that it glows when heated. Titanite deposits are often located near hot rivers and undegroun springs. If a rift or a crack occurs near such a deposit. The glow of titanite is starting to look like “northern lights coming out of the ground”."
+			},
+			"ru":{
+				"title":"Ледяные пустоши Эйгу",
+				"text":[
+					"Ледяные пустоши Эйгу располагаются на севере первого плана. Невероятный холод, господствующий в этих краях, проник под землю настолько глубоко, что начал провоцировать сильную сейсмическую активность. Из-за этого в ледяных пустошах можно встретить огромные разломы, напоминающие заснеженные невероятно глубокие каньоны, а также разломы поменьше, которые называют “трещинами” или “коростой”.",
+					"Разломы - не просто природная аномалия, а ценный ресурс. Ведь благодаря им немногочисленные жители пустошей получают уголь и титанит*. По разным сторонам самого большого разлома находятся астральные города: Ней Алург и Тетраглас. Их населяют ученые-механики, безбожники и изгнанные маги.",
+					"Разломы - не просто природная аномалия, а ценный ресурс. Ведь благодаря им немногочисленные жители пустошей получают уголь и титанит*. По разным сторонам самого большого разлома находятся астральные города: Ней Алург и Тетраглас. Их населяют ученые-механики, безбожники и изгнанные маги.",
+					"В отдалении от разломов выживают лишь самые приспособленные. Это земли великанов, опасных хищников и ползучих растений.",
+					"К путникам (особенно демонам) в пустошах относятся с опаской, ведь горячая плоть и хорошая экипировка делают каждого привлекательной добычей."
+				],
+				"placeholder":"*Титанит - очень редкий минерал, который добывается в разломах между планами. Образовался из крови погибших титанов. Обладает способностью термолюминесценции: светится при нагревании. Залежи титанита часто располагаются недалеко от горячих рек и подземных источников. Если рядом с таким месторождением открывается разлом или трещина, то свечение титанита становится похоже на “северное сияние, исходящее из-под земли”."
+			}
+		},
+		{
+			"id":"map_keizu",
+			"img":"2",
+			"en":{
+				"title":"The Keizu Wildlands",
+				"text":[
+					"The Keizu Wildlands are the first hunting ground of the first plane forthose who eat like humans (or eat humans)",
+					"The animals and inferior demons who inhabit these places usually possesspowerful limbs to help them traverse great distances and  escape predators that hunt themamong the high forests and endless pastures. Among the flora of the wild lands you can findmany aggressive plants, which appeared due to the strong influence of the demons of thesecond plane. The ‘Christian's Bonds’ and the ‘Tears of Villa’ are considered to be especially dangerous.",
+					"It is unknown whether it was the plants that kept the astral cities from filling all possible territory and only letthem locate along the trade route, but the fact remains that in a large area you will not meet many settlers,which is why the lands of Keizu are called ‘Wild’."
+				],
+				"placeholder":""
+			},
+			"ru":{
+				"title":"Дикие земли Кейзу",
+				"text":[
+					"Дикие земли Кейзу - главные охотничьи угодья первого плана. Их населяют те, кто питается как люди (или людьми).",
+					"Животные и низшие демоны, обитающие в этих местах, обычно обладают мощными конечностями, помогающими преодолевать большие расстояния и спасаться от хищников, охотящихся на них среди высоких лесов и бескрайних пастбищ. Среди флоры диких земель можно обнаружить много агрессивных растений, которые появились из-за сильного влияния демонов второго плана. Особенно опасными считаются “Кристиановы путы” и “Слезы Виллы”",
+					"Неизвестно, стали ли именно растения причиной того, что астральные города не заполнили собой всю возможную территорию, а стали располагаться лишь вдоль торгового тракта. Но факт остаётся фактом: на большой территории не встретишь много поселенцев. Поэтому земли Кейзу и называются “Дикими”."
+				],
+				"placeholder":""
+			}
+		},
+		{
+			"id":"map_sun-scorched",
+			"img":"3",
+			"en":{
+				"title":"SUN-SCORCHED LANDS OF TGWA",
+				"text":[
+					"It is believed that the Tgwa Desert used to be an incredibly fertile area. Mirinitsa seedlings alone were enough to provide bread for all the nearby astral cities, including the capital of the first plane, located in the middle of these lands.",
+					"Due to constant earthquakes and volcanic eruptions of the second plane, the surface began to change. Hills and mountains formed in Tgwa (the very centre of the first plane) and all the big rivers merged into one, starting to form a huge spiral around it. The heat emanating from beneath the earth dried up the underground waters. The fertile soil turned into desert, the fields into dunes, and the beautiful forests into terrible trees warped by the drought. ",
+					"Now only madmen come back here, apart from travelers who strive to conquer the black castle and find a way into the second plane.",
+					"In the immense heat, only the fittest survive, and that’s what makes the locals some of the most dangerous inhabitants of Pandemonium. "
+				],
+				"placeholder":""
+			},
+			"ru":{
+				"title":"ВЫЖЖЕННЫЕ СОЛНЦЕМ ПУСТЫНИ ТГВА",
+				"text":[
+					"Считается, что раньше на месте пустыни Тгва была невероятно плодородная территория.Одних только всходов Мириницы хватало, чтобы обеспечить хлебом все ближайшие астральные города,включая столицу первого плана, располагавшуюся в центре этих земель.",
+					"Из-за постоянных землетрясений и вулканических извержений второго плана поверхность начала изменяться.В Тгва (самом центре первого плана) образовались холмы и горы, а все большие реки слились в одну,начав образовывать огромную спираль вокруг. Жар исходящий из под земли высушил подземные воды.Плодородная почва превратилась в пустыню, поля в дюны,а прекрасные леса в жуткие искривленные засухой деревья.",
+					"Теперь сюда возвращаются лишь безумцы и путешественники, пытающиеся покоритьчерный замок и найти вход на второй план.На огромной жаре выживают лишь самые приспособленные,это делает местных обитателей одними из самых опасных."
+				],
+				"placeholder":""
+			}
+		}
+	]
+}

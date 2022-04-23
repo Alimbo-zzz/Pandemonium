@@ -1,0 +1,190 @@
+{
+   "roadmap":[
+      {
+         "colors":{
+            "_1":"#643E86",
+            "_2":"#32246B"
+         },
+         "en":{
+            "date":"September 2021",
+            "title":"Vestibule",
+            "list":[
+               "Creating the initial lore",
+               "Basic art style development",
+               "Drawing the first maps for drop and verification on AtomicHub"
+            ]
+         },
+         "ru":{
+            "date":"Сентябрь 2021",
+            "title":"Преддверие",
+            "list":[
+               "Создание первоначального лора",
+               "Разработка основного стиля",
+               "Создание первых карт для дропа и верификации на AtomicHub"
+            ]
+         }
+      },
+      {
+         "colors":{
+            "_1":"#963E77",
+            "_2":"#772E9D"
+         },
+         "en":{
+            "date":"The first half of October 2021",
+            "title":"Limbo",
+            "list":[
+               "Community building",
+               "Active involvement of the community to influence the existing lore",
+               "Drawing the first maps for drop and verification on AtomicHub"
+            ]
+         },
+         "ru":{
+            "date":"Первая половина октября 2021",
+            "title":"Лимб",
+            "list":[
+               "Создание комьюнити",
+               "Активное вовлечение комьюнити в проработку лора",
+               "Создание первых карт для дропа и верификации на AtomicHub"
+            ]
+         }
+      },
+      {
+         "colors":{
+            "_1":"#5149B3",
+            "_2":"#0E0654"
+         },
+         "en":{
+            "date":"The second half of October 2021",
+            "title":"Second circle",
+            "list":[
+               "Creating a whitelist of first subscribers",
+               "Free drop for loyal users ",
+               "Public drop of paid packs for the further development of the project"
+            ]
+         },
+         "ru":{
+            "date":"Вторая половина октября 2021",
+            "title":"Второй круг",
+            "list":[
+               "Создание вайтлиста из первых подписчиков",
+               "Бесплатный дроп для лояльной аудитории",
+               "Публичный дроп платных паков в целях дальнейшего развития проекта"
+            ]
+         }
+      },
+      {
+         "colors":{
+            "_1":"#C99594",
+            "_2":"#8E627E"
+         },
+         "en":{
+            "date":"November 2021",
+            "title":"Third circle",
+            "list":[
+               "In-depth development of the Pandemonium universe together with the community",
+               "Developing a game project",
+               "Bonus 18+"
+            ]
+         },
+         "ru":{
+            "date":"Ноябрь 2021",
+            "title":"Третий круг",
+            "list":[
+               "Углубленная проработка вселенной Пандемониума совместно с комьюнити",
+               "Разработка проекта игры",
+               "Бонус 18+"
+            ]
+         }
+      },
+      {
+         "colors":{
+            "_1":"#96C193",
+            "_2":"#76AAA0"
+         },
+         "en":{
+            "date":"December 2021",
+            "title":"Fourth circle",
+            "list":[
+               "Winter drop",
+               "Writing lore of the first level",
+               "Development and testing of smart contracts",
+               "Development of the first stage of the game - PvE arena"
+            ]
+         },
+         "ru":{
+            "date":"Декабрь 2021",
+            "title":"Четвертый круг",
+            "list":[
+               "Зимний Дроп",
+               "Глубокая проработка ЛОРа первого измерения",
+               "Разработка первого этапа игры - PvE арена",
+               "Создание смарт-контрактов"
+            ]
+         }
+      },
+      {
+         "colors":{
+            "_1":"#B33B3B",
+            "_2":"#FEBF01"
+         },
+         "en":{
+            "date":"First quarter 2022",
+            "title":"Fifth circle",
+            "list":[
+               "Creation of new packs of characters.",
+               "Whitelisting for the closed sale of the first large-scale drop.",
+               "Development of Lore. Second dimension.",
+               "The beginning development of the blockchain token “Soul Shard”",
+               "The second seasonal event is dedicated to the second large-scale drop",
+               "Development of the second add-on “Battle for the Black Castle”",
+               "Implementation of PvE mode.",
+               "Opening the first stage of the game for public access."
+            ]
+         },
+         "ru":{
+            "date":"Первый квартал 2022 года",
+            "title":"Пятый круг",
+            "list":[
+               "Создание новых паков персонажей",
+               "Вайтлистинг на закрытую продажу первого масштабного дропа.",
+               "Разработка ЛОРа второго измерения.",
+               "Начало разработки блокчейн токена “Soul Shard”",
+               "Второй сезонный ивент, приуроченный к второму масштабному дропу.",
+               "Разработка второго дополнения “Битва за Черный замок”",
+               "Реализация PvE режима.",
+               "Открытие первого этапа игры для общего доступа."
+            ]
+         }
+      },
+      {
+         "colors":{
+            "_1":"#5085cb",
+            "_2":"#a916dd"
+         },
+         "en":{
+            "date":"Second quarter 2022",
+            "title":"Sixth circle",
+            "list":[
+               "Development of additions to the first stage of the game - dungeons.",
+               "The second large-scale drop, with the addition of new characters of the first dimension.",
+               "Project scaling.",
+               "First large-scale drop.",
+               "Open access to the second add-on “Battle for the Black Castle”",
+               "Preparation for the transition to the second dimension 'Pandemonium'"
+            ]
+         },
+         "ru":{
+            "date":"Второй квартал 2022 года",
+            "title":"Шестой круг",
+            "list":[
+               "Разработка дополнения первого этапа игры - данжы.",
+               "Второй масштабный дроп, с добавлением новых персонажей первого измерения.",
+               "Масштабирование проекта.",
+               "Первый масштабный дроп.",
+               "Открытый доступ ко второму дополнению “Битва за Черный замок”",
+               "Подготовка к переходу во второе измерение “Pandemonium”"
+            ]
+         }
+      }
+   ]
+}

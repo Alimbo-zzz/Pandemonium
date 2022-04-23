@@ -1,0 +1,101 @@
+{
+	"pack_2":[
+		{
+			"img": "1",
+			"en":{
+				"title":"Styx’s waters Nymph",
+				"text": "Mysterious, cold and crazy. She will call you into her waters. If you agree, you will forget the past and become her servant.",
+				"bestiary":{
+					"title":"A Styx naiade",
+					"text":"Whether the River Styx is dangerous in itself is a big question, however, it is well known that the naiades that inhabit it are extremely dangerous. <br/> It is believed that a mortal soul that does not offer payment to the naiads of the Styx can not find the right path for a long time. And this is only half the trouble. <br/> The worst punishment for a traveler is a curse that the naiads, enraged by an unworthy offering, can inflict. The cursed one who touches the river water or tries to drink it, will die."
+				}
+			},
+			"ru":{
+				"title":"Водная нимфа Стикса",
+				"text": "Загадочная, холодная и безумная. Она будет заманивать тебя в свои воды. Если согласишься, то забудешь прошлое и станешь служить ей.",
+				"bestiary":{
+					"title":"Водная нимфа Стикса",
+					"text": "Так ли опасна река Стикс сама по себе – большой вопрос. Однако наяды, живущие в ней, опасны невероятно.<br/>Считается, что смертная душа, которая не предлагает платы наядам Стикса, долго не может найти верный путь. И это лишь полбеды.<br/>Самое страшное наказание для путника – проклятье, которое могут навести разгневанные недостойным подношением наяды. Проклятый, который дотронется до речной воды или попробует ее испить, погибнет."
+				}
+			}
+		},
+		{
+			"img": "2",
+			"en":{
+				"title":"COMMON NYMPH",
+				"text": "Don’t let her look deceive you. Seducing you with a beautiful voice, she will drag you to the bottom of the river. And eat you.",
+				"bestiary":{
+					"title":"A common naiade",
+					"text":"These small creatures can be found in most wild rivers and lakes of the first plane. They are born from the bubbles of astral foam that appears in bodies of water after tides and long rains.<br/> Their chatter resembles the murmuring of water, and their singing, the sound of crystal harps.<br/> They hide among schools of fish and lure unlucky mortals into the water (only those who have received the blessing of the water deities are relatively safe).<br/> It is said that you can pay them off with a coin or some trinket, but most of their victims end up being eaten."
+				}
+			},
+			"ru":{
+				"title":"Наяда обыкновенная",
+				"text": "Не позволяй её облику одурачить тебя. Она соблазнит тебя своим голосом и утащит на дно реки. И съест.",
+				"bestiary":{
+					"title":"Обыкновенная Наяда",
+					"text": "Этих маленьких существ можно встретить в большинстве диких рек и озер первого плана. Они рождаются из пузырьков астральной пены, которая появляется в водоемах после приливов и долгих дождей.<br/>Их разговоры напоминают журчание воды, а пение - хрустальные арфы. Они прячутся среди стаек рыб и заманивают непутевых смертных в воду (в относительной безопасности лишь те, кто получил благословение водяных божеств).<br/>Говорят, что от них можно откупиться монеткой или какой-нибудь безделушкой, однако большинство их жертв оказываются съеденными."
+				}
+			}
+		},
+		{
+			"img": "3",
+			"en":{
+				"title":"Little Nymph of the Great Lava Flow",
+				"text": "She is (inevitable) like a volcanic eruption. Her character is fire. Do not touch her, you will definitely burn yourself.",
+				"bestiary":{
+					"title":"A lava naiade",
+					"text":"These tiny creatures appear when a volcano erupts and then travel the world in search of fresh streams of hot lava. Instead of a heart, they carry a tiny coal, a reminder of the place where they were born. <br/> You can tell their mood by the color of the lava they are made of. Yellow lava is the hottest. This color means they are angry. Orange - interested. Dark red - calm."
+				}
+			},
+			"ru":{
+				"title":"Маленькая нимфа Великого лавого потока",
+				"text": "Она словно извержение вулкана - убежать невозможно. У неё взрывной характер. Не трогай её, если не хочешь обжечься.",
+				"bestiary":{
+					"title":"Маленькая нимфа Великого Лавого Потока",
+					"text": "Эти крошки появляются во время извержений вулканов и путешествуют по миру в поиске свежих потоков горячей лавы. Вместо сердца они носят крошечный уголек, напоминающий о месте, в котором они родились.<br/>По цвету лавы, из которой они состоят, можно определить их настроение. Желтая лава – самая горячая. Этот цвет означает, что они злы. Оранжевый - заинтересованы. Темно-красный - спокойны."
+				}
+			}
+		},
+		{
+			"img": "4",
+			"en":{
+				"title":"Queen of Dark Matter",
+				"text": "She dwells where all the water elements of the Underworld converge. She is insanely beautiful and dangerous.The Queen’s power is truly limitless. It's impossible to win her over.",
+				"bestiary":{
+					"title":"The queen of dark matter",
+					"text":"The queen of dark matter is an unusual naiade that lives in a place where all the water elements converge. She is said to have originated with the blessing of a water deity who believed that time and space were as fluid as water. <br/> This naiade is fickle, it would be more correct even to say 'unstable'. Some travelers say that it exists only halfway, others that they have seen several versions of it at once. It is unknown which is true, but no one disputes its incredible power."
+				}
+			},
+			"ru":{
+				"title":"Королева темной материи",
+				"text": "Обитает в месте, где сходятся все водные элементы Преисподней. Она дьявольски красива и безумно опасна. Силы и власть Королевы поистине безграничны. Завоевать её невозможно.",
+				"bestiary":{
+					"title":"Королева темной материи",
+					"text": "Королева тёмной материи - особенная наяда, которая обитает в месте, где сходятся все водные стихии. Считается, что она появилась благодаря благословению водяного божества, считавшего время и пространство такими же текучими, как и вода.<br/>Эта наяда непостоянна. Правильнее даже сказать 'нестабильна'. Одни путники говорят, что она существует лишь наполовину. Другие - что видели несколько её версий сразу. Неизвестно, что именно является правдой. Однако её невероятное могущество не оспаривает никто."
+				}
+			}
+		},
+		{
+			"img": "5",
+			"en":{
+				"title":"Nymph of Underworld sea",
+				"text": "The waters of this sea are very salty. You can find glowing flowers on the surface of the water. Bring them to the Naiad and maybe you will receive her blessing.",
+				"bestiary":{
+					"title":"A sea naiade",
+					"text":"The sea naiades are the most peaceful ones. They are lazy, so they spend most of their time resting and bouncing on the waves waiting for ships. They eat mostly seaweed, but when feeling bored, they won’t refuse an opportunity to swing by the bay and take a bite of somebody’s foot. <br/> Travelers seek their blessing, so they present them with wreaths of flowers, similar to those from which sea naiads are born. If the small creature grows practically fond of the wreath, it can show the wanderer the way to a treasure or a sunken ship."
+				}
+			},
+			"ru":{
+				"title":"Нимфа подземного моря",
+				"text": "Воды этого моря невероятно соленые. В них можно заметить светящиеся цветы, покачивающиеся на волнах. Принеси их Неяде, и, возможно, получишь её благословение.",
+				"bestiary":{
+					"title":"Нимфа подземного моря",
+					"text": "Морские наяды самые миролюбивые из всех. Они ленивы, и большую часть времени проводят отдыхая и покачиваясь на волнах в ожидании кораблей. Питаются в основном водорослями, но если заскучают - не откажутся от возможности заглянуть в бухту и отведать кусочек чьей-нибудь ноги. <br/>Путешественники стремятся получить их благословение, поэтому одаривают их венками из цветов, похожих на те, из которых рождаются морские наяды. Если венок особенно приглянулся малышке, то она может указать страннику путь к сокровищу или затонувшему кораблю."
+				}
+			}
+		}
+
+	]
+}
+

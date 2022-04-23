@@ -1,0 +1,149 @@
+{
+	"team":[
+		{
+			"img": "Denis",
+			"en":{
+				"name":"Denis Gorbatovsky",
+				"work": "Creative Designer",
+				"about": "Hi, my name is Denis. I am a game designer. My mission on this project is to look for ideas and inspire the team for further work. Unpredictable like a deep dark fantasy. Fluffy like your teddy bear."
+			},
+			"ru":{
+				"name":"Денис Горбатовский",
+				"work": "Creative Designer",
+				"about": "Привет, я Денис. Разработчик игр. <br/>Моя миссия в этом проекте - искать идеи и вдохновлять команду на дальнейшую работу. Непредсказуем, как самая тайная и темная фанатазия. Пушист, как твой плюшевый мишка."
+			}
+		},
+		{
+			"img": "Oleg",
+			"en":{
+				"name":"Oleg Serdyuk",
+				"work": "Technical Director",
+				"about": "Jew. Israeli. Cat lover. <br/>I like to organize work. <br/>I eat kiwi with peel."
+			},
+			"ru":{
+				"name":"Олег Сердюк",
+				"work": "Technical Director",
+				"about": "Еврей. Израильтянин. Любитель котиков.<br/> Люблю организовывать работу.<br/> Ем киви с кожурой."
+			}
+		},
+		{
+			"img": "Alim",
+			"en":{
+				"name":"Alim Mambetov",
+				"work": "Front-End developer",
+				"about": "I love going to the gym, developing cool js features and watching movies in the evenings. <br/>Credo: Those who live in the past have no future."
+			},
+			"ru":{
+				"name":"Алим Мамбетов",
+				"work": "Front-End developer",
+				"about": "Люблю посещать зал, разрабатывать крутые js фичи и смотреть фильмы по вечерам.<br/> Кредо: тот, кто живет в прошлом, не имеет будущего."
+			}
+		},
+		{
+			"img": "Oksana",
+			"en":{
+				"name":"Oksana Bahina",
+				"work": "Project Manager",
+				"about": "I'm a very cute daemon 🐥 <br/>Love: bananas, post-punk, nature, art. I really want to pet a capybara. <br/>Life is adventure time. Let's play (:"
+			},
+			"ru":{
+				"name":"Оксана Бахина",
+				"work": "Project Manager",
+				"about": "Я очень милый демон. 🐥 <br/> Любовь: бананы, постпанк, природу, искусство. Очень хочу погладить капибару. <br/> Жизнь - время приключений. Давайте играть (:"
+			}
+		},
+		{
+			"img": "Dmitry",
+			"en":{
+				"name":"Dmitry Makarov",
+				"work": "Blockchain Enjoyer",
+				"about": "My name is Dima and I am a developer. I've been watching blockchain technology and cryptocurrencies for a long time. I want to contribute to the development of this industry."
+			},
+			"ru":{
+				"name":"Дмитрий Макаров",
+				"work": "Blockchain Enjoyer",
+				"about": "Меня зовут Дима и я разработчик. Я уже давно интересуюсь блокчейном и криптовалютой. Мне хочется сделать свой вклад в развитие этой индустрии."
+			}
+		},
+		{
+			"img": "Pauline",
+			"en":{
+				"name":"Pauline Virki",
+				"work": "UX/UI Designer",
+				"about": "Hey whats up?  I love coffee and kfc and also croissants."
+			},
+			"ru":{
+				"name":"Полина Вирки",
+				"work": "UX/UI Designer",
+				"about": "Эй, как жизнь? Я люблю кофе и кфс, а ещё круассаны."
+			}
+		},
+		{
+			"img": "Vlad",
+			"en":{
+				"name":"Vlad Samovarov",
+				"work": "UX/UI Designer",
+				"about": "My hobbies include music, sports, reading, travelling. By the way, it is my love of travel that is often combined with work."
+			},
+			"ru":{
+				"name":"Влад Самоваров",
+				"work": "UX/UI Designer",
+				"about": "Мои хобби: музыка, спорт, чтение, путешествия. Кстати, моя любовь к путешествиям часто совмещается с работой."
+			}
+		},
+		{
+			"img": "Rimma",
+			"en":{
+				"name":"Rimma Shigapova",
+				"work": "Artist/Designer",
+				"about": "My name is Rimma. I am an artist in team and artist in life. I draw in anime style, engage in creative work. <br/>My motto: how do I draw, I'm not liking this art anymore"
+			},
+			"ru":{
+				"name":"Римма Шагапова",
+				"work": "Artist/Designer",
+				"about": "Меня зовут Римма. Я художник в коллективе и художник по жизни. Рисую в стиле аниме, занимаюсь творчеством. <br/> Мой девиз: как мне рисовать, мне больше не нравится это искусство"
+			}
+		},
+		{
+			"img": "Arina",
+			"en":{
+				"name":"Arina Blinova",
+				"work": "Scenarist/Copywriter",
+				"about": "Hey! I'm Arina, a game writer. My job is to create stories and characters for our projects. I love D&D and memes about cats, especially the one about the clothespin."
+			},
+			"ru":{
+				"name":"Арина Блинова",
+				"work": "Scenarist/Copywriter",
+				"about": "Привет! Я Арина, пишу сценарии к играм. Моя работа заключается в создании сюжетов и персонажей для наших проектов. Я люблю D&D и мемы про котиков, особенно тот с котом и прищепкой."
+			}
+		},
+		{
+			"img": "Anastasia",
+			"en":{
+				"name":"Anastasia Zhuleva",
+				"work": "UX/UI Designer",
+				"about": "I am Nastya, a UX / UI designer 🙂 I’m fond of watching TV series (too much, I think this is an addiction), snowboarding and creating cool interfaces🤙🏼"
+			},
+			"ru":{
+				"name":"Анастасия Жулева",
+				"work": "UX/UI Designer",
+				"about": "Я Настя, UX/UI дизайнер. Я люблю смотреть сериалы (чересчур, мне кажется, это зависимость), кататься на сноуборде и создавать крутые интерфейсы."
+			}
+		},
+		{
+			"img": "Natalya",
+			"en":{
+				"name":"Natalia Posokh",
+				"work": "Product Manager",
+				"about": "I run Pandemonium Project in the name of the Moon🌙 <br/>Hope you enjoy it as much as I do! <br/>Like to watch anime with my sweet cats Thor and Loki after a long day at office."
+			},
+			"ru":{
+				"name":"Наталья Посох",
+				"work": "Product Manager",
+				"about": "Я управляю проектом Pandemonium во имя Луны🌙 <br/> Надеюсь, он вам понравится так же, как и мне! <br/> Люблю смотреть аниме с моими милыми котиками Тором и Локи после долгого рабочего дня в офисе."
+			}	
+		}
+	]
+}
+
+

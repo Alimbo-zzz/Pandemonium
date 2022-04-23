@@ -1,0 +1,149 @@
+{
+	 "train_roadmap":[
+			{
+				 "colors":{
+						"_1":"#643E86",
+						"_2":"#32246B"
+				 },
+				 "img":"1",
+				 "en":{
+						"text":[
+							 "To begin with, you have to log in via your WAX wallet and choose a nickname. Right after that, you’ll receive the welcome bonus."
+						]
+				 },
+				 "ru":{
+						"text":[
+							 "Для начала необходимо авторизоваться через wax-кошелек и выбрать себе никнейм. Сразу после этого приветственный бонус окажется у тебя.",
+							 "Отлично, теперь ты можешь участвовать в сражениях!"
+						]
+				 }
+			},
+			{
+				 "colors":{
+						"_1":"#963E77",
+						"_2":"#772E9D"
+				 },
+				 "img":"2",
+				 "en":{
+						"text":[
+							 "Now, you are in the main menu. Here you can view your NFT card collection, previous and ongoing battles and visit the Arena! "
+						]
+				 },
+				 "ru":{
+						"text":[
+							 "Теперь ты в главном меню. Здесь можно посмотреть свою коллекцию NFT карт,  предыдущие и идущие сейчас бои и отправится на Арену!"
+						]
+				 }
+			},
+			{
+				 "colors":{
+						"_1":"#963E77",
+						"_2":"#772E9D"
+				 },
+				 "img":"3",
+				 "en":{
+						"text":[
+							 "Here’s the Arena!",
+							 "There are five battle panels on the screen. Ferocious rats fight against our knights. Unfortunately, without you, evil often wins.",
+							 "Do not despair: you can always add your NFT card to the knight by clicking on the knight’s '+' to increase the overall performance."
+						]
+				 },
+				 "ru":{
+						"text":[
+							 "А вот и арена!",
+							 "На экране пять панелей боев. Злые крыся борются с нашими рыцарями. К сожалению, без вас зло чаще всего побеждает.",
+							 "Не стоит опускать руки - к рыцарю всегда можно добавить свою NFT карточку, нажав на “+” у рыцаря, чтобы повысить общие характеристики."
+						]
+				 }
+			},
+			{
+				 "colors":{
+						"_1":"#643E86",
+						"_2":"#32246B"
+				 },
+				 "img":"4",
+				 "en":{
+						"text":[
+							 "Also, you can pay coins to increase one of the indicators of a friendly warrior by clicking on the “Update” button."
+						]
+				 },
+				 "ru":{
+						"text":[
+							 "Также нажав кнопку “Update” за коины можно увеличить один из показателей дружественного воина."
+						]
+				 }
+			},
+			{
+				 "colors":{
+						"_1":"#963E77",
+						"_2":"#772E9D"
+				 },
+				 "img":"5",
+				 "en":{
+						"text":[
+							 "Now, you can click “To battle”: The bet amount will be deducted from your account, the panel will freeze and if your knight wins after the countdown ends, you get double the amount of your bet as a reward. "
+						]
+				 },
+				 "ru":{
+						"text":[
+							 "Теперь можно нажать кнопку “To battle”: с твоих коинов спишется сумма ставки боя, панель заморозиться и, если рыцарь одержит победу после окончания таймера, то ты получишь двойную ставку в награду."
+						]
+				 }
+			},
+			{
+				 "colors":{
+						"_1":"#643E86",
+						"_2":"#32246B"
+				 },
+				 "img":"6",
+				 "en":{
+						"text":[
+							 "Every card, including the NFT ones, has its own elemental class, which is responsible for the attack and damage taken.",
+							 "There are five classes in total: normal, fire, water, earth, and air.",
+							 "The elemental attacks with different classes cause different damage, as shown in the table below"
+						]
+				 },
+				 "ru":{
+						"text":[
+							 "У каждой карты, в том числе и NFT - есть свой стихийный класс, который отвечает за атаку и получаемый урон.",
+							 "Всего их пять: обычный, огненный, водяной, земляной и воздушный.",
+							 "Стихийные атаки по разным классам наносят разный урон, как в таблице ниже:"
+						]
+				 }
+			},
+			{
+				 "colors":{
+						"_1":"#963E77",
+						"_2":"#772E9D"
+				 },
+				 "img":"7",
+				 "en":{
+						"text":[
+							 "Also, every rat has its own secret attack that may turn the fight around. You'll have to figure out on your own what's behind the skull. At the end of the event we'll reveal this indicator."
+						]
+				 },
+				 "ru":{
+						"text":[
+							 "Также у каждого крыса есть своя скрытая атака, влияющая на бой. Придется своими силами понять, что скрывается за черепом. В конце ивента мы раскроем этот показатель."
+						]
+				 }
+			},
+			{
+				 "colors":{
+						"_1":"#643E86",
+						"_2":"#32246B"
+				 },
+				 "img":"8",
+				 "en":{
+						"text":[
+							 "If the knight wins, the opponents on the battle panel are upgraded to more difficult. If the knight loses, you still have a chance to play this battle again."
+						]
+				 },
+				 "ru":{
+						"text":[
+							 "Если рыцарь одерживает победу, то противники на панели боя обновляются до более сложных. Если рыцарь проиграл, то у тебя остается шанс сыграть этот бой еще раз."
+						]
+				 }
+			}
+	 ]
+}

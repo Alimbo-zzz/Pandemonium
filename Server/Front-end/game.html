@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Pandemonium</title>
+
+    <script src="resources/API/polyfill.min.js" defer=""></script>
+    <script src="resources/API/waxjs.js" defer=""></script>
+    <script src="Build/buildTest.loader.js" defer=""></script>
+    <script src="resources/API/aos/aos.js" defer=""></script>
+    <script src="game-page.js" defer=""></script>
+    <link href="resources/API/aos/aos.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/main.min.css"/>
+	<style>
+		body{
+  		padding:0;
+  		margin: 0;
+      background: #222;
+      color:#fff;
+    }
+
+    .game-sec{
+      width: 100%;
+      overflow: hidden;
+    }
+
+
+    .game-sec._game #unity-canvas{
+      display: block;
+    }
+
+    .game-sec._game .s_game-first{
+      display: none;
+    }
+
+    #unity-canvas{
+      background-color: #222;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      display: none;
+    }
+
+
+    ._back-home{
+      margin: 0 auto;
+      max-width: 200px;
+      height: 40px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+	</style>
+  </head>
+  <body style="text-align: center" >
+    <header>
+      <div class="container">
+        <a href="/" class="btn _back-home">back</a>
+      </div>
+    </header>
+    <div class="game-sec ">
+      <canvas id="unity-canvas"></canvas>
+
+      <section class="s_game-first">
+        <div class="container">
+          <div class="login-block"><img class="login-block__wing _l" src="./resources/icons/wing.svg"/><img class="login-block__wing _r" src="./resources/icons/wing.svg"/><img class="login-block__logo _b" src="./resources/icons/svg_1.svg"/><img class="login-block__logo _w" src="./resources/icons/svg_2.svg"/>
+            <div class="login-block__box">
+              <h2 class="title">Login in WAX </h2><a class="login-block__link" id="login-btn"> <img class="wax-logo" src="./assets/images/WAX.png"/>WAX Cloud Wallet</a><a class="login-block__more" href="">
+                      <svg>
+                        <use xlink:href="./assets/icons/svg/sprite.svg#i_2"></use>
+                      </svg>Learn more</a>
+            </div>
+            <p class="text">
+               Don't have an account? Create in <a class="login-block__link-info" href="">here</a></p>
+            <p class="text _b">Having problems?<br/>See how to eliminate them <a class="login-block__link-info" href="">here</a></p>
+          </div>
+        </div>
+      </section>
+      <section class="s_train-roadmap">
+        <div class="train-roadmap" id="train_roadmap">
+          <div class="road" data-aos="data-aos">
+            <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/1.png"/>
+              <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+              <p class="text">To begin with, you have to log in via your WAX wallet and choose a nickname. Right after that, you’ll receive the welcome bonus.</p>
+            </div>
+            <div class="point" style="background: linear-gradient(125deg, #643E86 0%, #32246B 100%);">
+              <div class="point__index">1</div>
+            </div>
+          </div>
+          <div class="road" data-aos="data-aos">
+            <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/2.png"/>
+              <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+              <p class="text">Now, you are in the main menu. Here you can view your NFT card collection, previous and ongoing battles and visit the Arena! </p>
+            </div>
+            <div class="point" style="background: linear-gradient(125deg, #963E77 0%, #772E9D 100%);">
+              <div class="point__index">2</div>
+            </div>
+          </div>
+          <div class="road" data-aos="data-aos">
+            <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/3.png"/>
+              <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+              <p class="text">Here’s the Arena!</p>
+              <p class="text">There are five battle panels on the screen. Ferocious rats fight against our knights. Unfortunately, without you, evil often wins.</p>
+              <p class="text">Do not despair: you can always add your NFT card to the knight by clicking on the knight’s '+' to increase the overall performance.</p>
+            </div>
+            <div class="point" style="background: linear-gradient(125deg, #963E77 0%, #772E9D 100%);">
+              <div class="point__index">3</div>
+            </div>
+          </div>
+          <div class="road" data-aos="data-aos">
+            <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/4.png"/>
+              <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+              <p class="text">Also, you can pay coins to increase one of the indicators of a friendly warrior by clicking on the “Update” button.</p>
+            </div>
+            <div class="point" style="background: linear-gradient(125deg, #643E86 0%, #32246B 100%);">
+              <div class="point__index">4</div>
+            </div>
+          </div>
+          <div class="road" data-aos="data-aos">
+            <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/5.png"/>
+              <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+              <p class="text">Now, you can click “To battle”: The bet amount will be deducted from your account, the panel will freeze and if your knight wins after the countdown ends, you get double the amount of your bet as a reward. </p>
+            </div>
+            <div class="point" style="background: linear-gradient(125deg, #963E77 0%, #772E9D 100%);">
+              <div class="point__index">5</div>
+            </div>
+          </div>
+          <div class="road" data-aos="data-aos">
+            <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/6.png"/>
+              <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+              <p class="text">Every card, including the NFT ones, has its own elemental class, which is responsible for the attack and damage taken.</p>
+              <p class="text">There are five classes in total: normal, fire, water, earth, and air.</p>
+              <p class="text">The elemental attacks with different classes cause different damage, as shown in the table below</p>
+            </div>
+            <div class="point" style="background: linear-gradient(125deg, #643E86 0%, #32246B 100%);">
+              <div class="point__index">6</div>
+            </div>
+          </div>
+          <div class="road" data-aos="data-aos">
+            <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/7.png"/>
+              <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+              <p class="text">Also, every rat has its own secret attack that may turn the fight around. You'll have to figure out on your own what's behind the skull. At the end of the event we'll reveal this indicator.</p>
+            </div>
+            <div class="point" style="background: linear-gradient(125deg, #963E77 0%, #772E9D 100%);">
+              <div class="point__index">7</div>
+            </div>
+          </div>
+          <div class="road" data-aos="data-aos">
+            <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/8.png"/>
+              <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+              <p class="text">If the knight wins, the opponents on the battle panel are upgraded to more difficult. If the knight loses, you still have a chance to play this battle again.</p>
+            </div>
+            <div class="point" style="background: linear-gradient(125deg, #643E86 0%, #32246B 100%);">
+              <div class="point__index">8</div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script>
+//window.unityInstance =
+        //window.unityInstance.SendMessage( 'DataProvider', 'GetPlayerDataFromSite' , 'cxnwu.wam petuh');
+    </script>
+  </body>
+</html>
