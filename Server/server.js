@@ -17,7 +17,7 @@ app.use(express.urlencoded({
     limit: '50mb'
 }));
 app.use(cors({
-    origin: 'http://localhost:5000',
+    origin: 'http://45.76.38.211/:5000',
     // optionsSuccessStatus: 200
 }))
 
