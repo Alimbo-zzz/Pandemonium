@@ -7,19 +7,17 @@ const axios = require('axios')
 const waxjs = require('@waxio/waxjs/dist');
 const rpc = new JsonRpc('https://api.waxsweden.org/', { fetch });
 
-
 async function login(req, res) {
     let flag = await userDatabase.doc(req.body.waxName).get()
-    if (flag){
+    if (flag.data()){
         return res.json(flag.data())
     }
-
     const user = {
         waxName: req.body.waxName,
         collection_name: req.body.collection_name,
         coins: 1000,
     }
-    userDatabase.doc(user.waxName).set(user);
+    await userDatabase.doc(user.waxName).set(user);
     return res.json(user)
 }
 
