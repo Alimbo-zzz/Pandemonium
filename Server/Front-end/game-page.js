@@ -70,12 +70,14 @@ function login_game(){
 				// 	collection_name: 'farmingtales'
 				// }
 
+				let body = {
+					waxName: `${wax[0]}`,
+					collection_name: `${wax[1]}`
+				}
 
-				// sendRequest('POST', 'https://wax.api.atomicassets.io/atomicassets/v1/assets', body)
-				// 	.then(data=>{
-				// 		console.log(data);
-				// 	})
-
+				sendRequest('POST', '/login', body).then(res=>{
+					console.log(res);
+				})
 
 		createUnityInstance(document.querySelector("#unity-canvas"), {
 			dataUrl: "Build/buildTest.data",
