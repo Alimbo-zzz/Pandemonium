@@ -8,6 +8,7 @@ const waxjs = require('@waxio/waxjs/dist');
 const rpc = new JsonRpc('https://api.waxsweden.org/', { fetch });
 
 async function login(req, res) {
+    if (req.body.waxName == null) return res.json('false')
     let flag = await userDatabase.doc(req.body.waxName).get()
     if (flag.data()){
         return res.json(flag.data())
@@ -37,8 +38,8 @@ async function getUser(req, res) {
 async function getCards(waxName, collection_name) {
     // console.log(waxName, collection_name)
     let body = {
-        owner: "hpd34.wam",
-        collection_name: "pandemoniumw"
+        owner: waxName,
+        collection_name: collection_name
     }
     let test
     await fetch(
