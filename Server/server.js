@@ -1,54 +1,37 @@
-const express = require('express')
-const cors = require('cors')
-const app = express()
-const port = 5000
-
-const { userDatabase } = require('./config/firebaseAdmin');
-const {login, getUser, changeCoins, getCards, processCards} = require('./src/user/user.router')
+const express = require('express');
+const path = require('path');
 const createPath = require('./src/helpers/createPath.js');
+const API = require('./src/API');
+const morgan = require('morgan');
+const router = require('./src/routes.js');
+const mongoose = require('mongoose');
+
+const app  = express();
+const PORT = 5000;
+const db = `mongodb+srv://Pandemonium:pand8866@cluster0.3jivp.mongodb.net/Pandemonium?retryWrites=true&w=majority`;
+
+mongoose
+	.connect(db, {useNewUrlParser: true, useUnifiedTopology: true})
+	.then(res=>{console.log('MongoDB -- connect')})
+	.catch(err=>{console.log(err);})
 
 
-app.use(express.json({
-    type: "application/json",
-    limit: "4MB"
-}));  // позволяет получать json-files
-app.use(express.urlencoded({
-    extended: false,
-    limit: '50mb'
-}));
-app.use(cors({
-    origin: 'http://45.76.38.211/:5000',
-    // optionsSuccessStatus: 200
-}))
-
-app.use('/', express.static('Front-end')); // путь для подгрузки всех элементов
+app.use('/', express.static( path.resolve(__dirname, 'Front-end') ) ); // путь для всех элементов
+app.use(morgan(':method :url :status :res[content-length] :response-time ms')); // выведение в консоль всех запросов
+app.use(express.json());  // позволяет получать json-files
+app.use(express.urlencoded({extended: false})); // middle var - позволяет принимать body в запросах
+app.use(API); // API
+app.use(router); // roter
 
 
 
-app.post('/login', login)
-app.post('/getUser', getUser)
 
-app.post('/changeCoins', changeCoins)
-app.get('/getCards', processCards)
 
-app.get('/game', (req, res)=>{
-	res.sendfile(createPath('game'))
+
+
+
+
+// start server
+app.listen(PORT, (err)=>{
+	err ? console.log(err) : console.log(`PORT: ${PORT}`);
 })
-
-
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
-
-const schedule = require('node-schedule');
-
-const job = schedule.scheduleJob('0 0 0 * * *', function(fireDate){
-    userDatabase.get()
-        .then((docs) => {
-            docs.forEach((doc) => {
-                doc.ref.update({
-                    coins: doc.data().coins += 1000
-                })
-            })
-        })
-  });

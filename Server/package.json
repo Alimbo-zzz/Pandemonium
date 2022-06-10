@@ -1,22 +1,21 @@
 {
-  "name": "server",
+  "name": "pand_server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@waxio/waxjs": "^1.0.4",
-    "axios": "^0.26.1",
-    "cors": "^2.8.5",
-    "eosjs": "^22.1.0",
-    "express": "^4.17.3",
-    "firebase-admin": "^10.0.2",
-    "node-schedule": "^2.1.0",
-    "nodemon": "^2.0.15"
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.3.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2"
   }
 }
