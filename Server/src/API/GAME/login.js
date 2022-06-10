@@ -73,8 +73,8 @@ function setCollection(waxName){
 			var collection = [];
 
 			data.forEach(el => {
-					let {asset_id, data, owner} = el;
-					let obj = {asset_id, data, owner};
+					let {asset_id, data, owner, template} = el;
+					let obj = {asset_id, data, owner, img_id: template.template_id};
 					collection.push(obj);
 			});
 

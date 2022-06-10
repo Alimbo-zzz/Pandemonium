@@ -1,8 +1,8 @@
 const {login} = require('./login');
-const {getUser, editUser, editCoins} = require('./users');
+const {getUser, editUser, editCoins, getCollectionId} = require('./users');
 
 
 
 module.exports = {
-	login, getUser, editUser,  editCoins
+	login, getUser, editUser,  editCoins, getCollectionId
 }
