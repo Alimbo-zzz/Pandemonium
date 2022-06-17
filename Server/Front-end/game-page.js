@@ -64,25 +64,24 @@ function login_game(){
 		console.log('login');
 		login()
 			.then(wax=>{
-				console.log(wax);
 				// let body = {
 				// 	name: 'hpd34.wam',
 				// 	collection_name: 'farmingtales'
 				// }
 
 				let body = {
-					waxName: `${wax[0]}`,
-					collection_name: `${wax[1]}`
+					waxName: `${wax[0]}`
 				}
 
-				sendRequest('POST', '/login', body).then(res=>{
+				sendRequest('POST', '/api/login', body).then(res=>{
 					console.log(res);
 				})
 
+
 		createUnityInstance(document.querySelector("#unity-canvas"), {
-			dataUrl: "Build/buildTest.data",
-			frameworkUrl: "Build/buildTest.framework.js",
-			codeUrl: "Build/buildTest.wasm",
+			dataUrl: "Build/Pandemonium.data",
+			frameworkUrl: "Build/Pandemonium.framework.js",
+			codeUrl: "Build/Pandemonium.wasm",
 			streamingAssetsUrl: "StreamingAssets",
 			companyName: "DefaultCompany",
 			productName: "prototype-nft-lun",
@@ -92,8 +91,9 @@ function login_game(){
 		})
 		.then(res=>{
 			console.log('______________________s');
-			console.log(wax[0]);
-			res.SendMessage( 'DataProvider', 'GetPlayerDataFromSite' , `${wax[0]} test`);
+			let game_data = `${wax[0]} ${window.location.origin}/`;
+			console.log(game_data);
+			res.SendMessage( 'DataProvider', 'GetPlayerDataFromSite' , game_data);
 		})
 		.then(res=>{
 			main_block.classList.add('_game');
