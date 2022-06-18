@@ -59,11 +59,14 @@ train_roadmap();
 function login_game(){
 	const login_btn = document.querySelector('#login-btn');
 	const main_block = document.querySelector('.game-sec');
+	const sec = document.querySelector('.s_game-first');
 
 	login_btn.onclick = ()=>{
 		console.log('login');
 		login()
 			.then(wax=>{
+				sec.classList.add('_load');
+
 				// let body = {
 				// 	name: 'hpd34.wam',
 				// 	collection_name: 'farmingtales'
@@ -97,7 +100,9 @@ function login_game(){
 		})
 		.then(res=>{
 			main_block.classList.add('_game');
+			sec.classList.remove('_load');
 		})
+		.catch(err=>{console.log(err); sec.classList.remove('_load')})
 
 	})
 }
