@@ -1,0 +1,850 @@
+<!DOCTYPE html >
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="./resources/icons/icon_2.ico"/>
+    <title>Pandemonium</title>
+    <script src="resources/API/polyfill.min.js" defer=""></script>
+    <script src="resources/API/waxjs.js" defer=""></script>
+    <script src="resources/API/aos/aos.js" defer=""></script>
+    <link href="resources/API/aos/aos.css" rel="stylesheet"/>
+    <script src="resources/API/splide/splide.min.js" defer=""></script>
+    <link href="resources/API/splide/splide.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/main.min.css"/>
+    <script src="js/main.min.js" defer=""></script>
+  </head>
+  <body>
+    <div>
+    </div>
+    <main class="mainContent _dark">
+      <div id="start"></div>
+      <div class="preloading">
+        <div class="loader"><img src="./resources/icons/logo.svg"/><span class="n">
+                  <svg>
+                    <use xlink:href="./assets/icons/svg/sprite.svg#n"></use>
+                  </svg></span><span class="m">
+                  <svg>
+                    <use xlink:href="./assets/icons/svg/sprite.svg#m"></use>
+                  </svg></span><span class="p"></span></div>
+      </div>
+      <div class="map-modal">
+        <div class="map-modal__overlay"></div>
+        <div class="map-modal__block">
+          <h3 class="title">The ice wastelands of Eigu</h3>
+          <p class="lore-text scroll_1">The ice wastelands of Eigu are located in the north of the first plane. The extreme cold that prevails in these areas has penetrated so deeply into the ground that it has begun to provoke strong seismic activity. Because of this, huge faults resembling snow-covered, incredibly deep canyons as well as smaller faults called "cracks" or "crusts" can be found in the ice wastelands. </p><a class="btn-more">read more</a><span class="remove">✘</span>
+        </div>
+      </div>
+      <header class="header">
+        <div class="container">
+          <button class="logo"> <img src="./resources/icons/svg_1.svg"/><img class="_hide" src="./resources/icons/svg_2.svg"/></button><a class="lng-btn_game btn" href="/game">Game</a>
+          <div class="header__block">
+            <div class="page-btns"><a class="lng-btn_home btn page-btns_home" href="#start">Back Home</a><a class="lng-btn_lore btn page-btns_lore" href="#start">Lore</a><a class="lng-btn_bestiary btn page-btns_bestiary" href="#start">bestiary</a></div>
+            <nav class="nav">
+              <div class="lng-btn_nav btn nav__title">navigation</div>
+              <ul class="nav__list">
+                <li class="nav__el"><a class="nav__link lng-btn_home" href="#s_intro">home</a></li>
+                <li class="nav__el"><a class="nav__link lng-btn_roadmap" href="#s_roadmap">roadmap</a></li>
+                <li class="nav__el"><a class="nav__link lng-btn_about" href="#s_about">about</a></li>
+                <li class="nav__el"><a class="nav__link lng-btn_team" href="#s_team">team</a></li>
+              </ul>
+            </nav>
+            <div class="header__box">
+              <div class="btns-lang">
+                <button class="btns-lang__select">
+                        <svg>
+                          <use xlink:href="./assets/icons/ico/sprite.svg#en"></use>
+                        </svg>
+                </button>
+                <ul class="btns-lang__list">
+                  <li class="lng-btn btns-lang__el" data-lang="en">
+                    <button>
+                            <svg>
+                              <use xlink:href="./assets/icons/ico/sprite.svg#en"></use>
+                            </svg>
+                    </button><span>en</span>
+                  </li>
+                  <li class="lng-btn btns-lang__el" data-lang="ru">
+                    <button>
+                            <svg>
+                              <use xlink:href="./assets/icons/ico/sprite.svg#ru"></use>
+                            </svg>
+                    </button><span>ru</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="raq btn">
+                      <svg>
+                        <use xlink:href="./assets/icons/svg/sprite.svg#q"></use>
+                      </svg>
+                      <svg>
+                        <use xlink:href="./assets/icons/svg/sprite.svg#FAQ"></use>
+                      </svg>
+              </div>
+            </div>
+            <div class="socials">
+              <ul class="socials__list">
+                <li class="socials__el"><a href="https://t.me/pandemonium2021" target="blanck">
+                          <svg>
+                            <use xlink:href="./assets/icons/svg/sprite.svg#telegram"></use>
+                          </svg></a></li>
+                <li class="socials__el"><a href="https://twitter.com/PandemoniumNFT" target="blanck">
+                          <svg>
+                            <use xlink:href="./assets/icons/svg/sprite.svg#twitter"></use>
+                          </svg></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="hamburger"><span class="hamburger__line"></span></div>
+        </div>
+      </header>
+      <div class="main">
+        <div class="page game">
+          <section class="s_game-first">
+            <div class="container">
+              <div class="login-block"><img class="login-block__wing _l" src="./resources/icons/wing.svg"/><img class="login-block__wing _r" src="./resources/icons/wing.svg"/><img class="login-block__logo _b" src="./resources/icons/svg_1.svg"/><img class="login-block__logo _w" src="./resources/icons/svg_2.svg"/>
+                <div class="login-block__box">
+                  <h2 class="title">Login in WAX </h2><a class="login-block__link" id="login-btn"> <img class="wax-logo" src="./assets/images/WAX.png"/>WAX Cloud Wallet</a><a class="login-block__more" href=""> 
+                          <svg>
+                            <use xlink:href="./assets/icons/svg/sprite.svg#i_2"></use>
+                          </svg>Learn more</a>
+                </div>
+                <p class="text">
+                   Don't have an account? Create in <a class="login-block__link-info" href="">here</a></p>
+                <p class="text _b">Having problems?<br/>See how to eliminate them <a class="login-block__link-info" href="">here</a></p>
+              </div>
+              <button class="btn">Обучение</button>
+            </div>
+          </section>
+          <section class="s_train-roadmap">
+            <div class="train-roadmap" id="train_roadmap">
+              <div class="road" data-aos="data-aos">
+                <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/1.png"/>
+                  <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+                  <p class="text">To begin with, you have to log in via your WAX wallet and choose a nickname. Right after that, you’ll receive the welcome bonus.</p>
+                </div>
+                <div class="point" style="background: linear-gradient(125deg, #643E86 0%, #32246B 100%);">
+                  <div class="point__index">1</div>
+                </div>
+              </div>
+              <div class="road" data-aos="data-aos">
+                <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/2.png"/>
+                  <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+                  <p class="text">Now, you are in the main menu. Here you can view your NFT card collection, previous and ongoing battles and visit the Arena! </p>
+                </div>
+                <div class="point" style="background: linear-gradient(125deg, #963E77 0%, #772E9D 100%);">
+                  <div class="point__index">2</div>
+                </div>
+              </div>
+              <div class="road" data-aos="data-aos">
+                <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/3.png"/>
+                  <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+                  <p class="text">Here’s the Arena!</p>
+                  <p class="text">There are five battle panels on the screen. Ferocious rats fight against our knights. Unfortunately, without you, evil often wins.</p>
+                  <p class="text">Do not despair: you can always add your NFT card to the knight by clicking on the knight’s '+' to increase the overall performance.</p>
+                </div>
+                <div class="point" style="background: linear-gradient(125deg, #963E77 0%, #772E9D 100%);">
+                  <div class="point__index">3</div>
+                </div>
+              </div>
+              <div class="road" data-aos="data-aos">
+                <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/4.png"/>
+                  <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+                  <p class="text">Also, you can pay coins to increase one of the indicators of a friendly warrior by clicking on the “Update” button.</p>
+                </div>
+                <div class="point" style="background: linear-gradient(125deg, #643E86 0%, #32246B 100%);">
+                  <div class="point__index">4</div>
+                </div>
+              </div>
+              <div class="road" data-aos="data-aos">
+                <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/5.png"/>
+                  <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+                  <p class="text">Now, you can click “To battle”: The bet amount will be deducted from your account, the panel will freeze and if your knight wins after the countdown ends, you get double the amount of your bet as a reward. </p>
+                </div>
+                <div class="point" style="background: linear-gradient(125deg, #963E77 0%, #772E9D 100%);">
+                  <div class="point__index">5</div>
+                </div>
+              </div>
+              <div class="road" data-aos="data-aos">
+                <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/6.png"/>
+                  <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+                  <p class="text">Every card, including the NFT ones, has its own elemental class, which is responsible for the attack and damage taken.</p>
+                  <p class="text">There are five classes in total: normal, fire, water, earth, and air.</p>
+                  <p class="text">The elemental attacks with different classes cause different damage, as shown in the table below</p>
+                </div>
+                <div class="point" style="background: linear-gradient(125deg, #643E86 0%, #32246B 100%);">
+                  <div class="point__index">6</div>
+                </div>
+              </div>
+              <div class="road" data-aos="data-aos">
+                <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/7.png"/>
+                  <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+                  <p class="text">Also, every rat has its own secret attack that may turn the fight around. You'll have to figure out on your own what's behind the skull. At the end of the event we'll reveal this indicator.</p>
+                </div>
+                <div class="point" style="background: linear-gradient(125deg, #963E77 0%, #772E9D 100%);">
+                  <div class="point__index">7</div>
+                </div>
+              </div>
+              <div class="road" data-aos="data-aos">
+                <div class="road__block"><img class="road__preview" src="./assets/images/train-roadmap/8.png"/>
+                  <div class="roadmap-popup-btn"><img src="./resources/icons/i.svg"/></div>
+                  <p class="text">If the knight wins, the opponents on the battle panel are upgraded to more difficult. If the knight loses, you still have a chance to play this battle again.</p>
+                </div>
+                <div class="point" style="background: linear-gradient(125deg, #643E86 0%, #32246B 100%);">
+                  <div class="point__index">8</div>
+                </div>
+              </div>
+            </div>
+            <button class="btn">Играть</button>
+          </section>
+        </div>
+        <div class="page lore">
+          <section class="_sec lore-first">
+            <div class="container">
+              <div class="lore-first__intro">
+                <div class="lore-first__logo"></div>
+                <h1 class="lng-lore-main_title title"> </h1>
+              </div>
+            </div>
+          </section>
+          <section class="_sec lore-about">
+            <div class="container">
+              <div class="lore-about__logo">
+                      <svg>
+                        <use xlink:href="./assets/icons/ico/sprite.svg#scroll"></use>
+                      </svg>
+              </div>
+              <h3 class="lng-lore-about_title lore-text _bold">Dear traveler,</h3>
+              <p class="lng-lore-about_text lore-text"> </p>
+            </div>
+          </section>
+          <section class="_sec lore-map">
+            <div class="container">
+              <div class="map">
+                <div class="map-points"><span class="map-points__point _1"></span><span class="map-points__point _2"></span><span class="map-points__point _3"></span></div>
+                <div class="map-zone">
+                  <div class="map-zone__el _1">
+                    <div class="map-zone__box">
+                      <h3 class="map-zone__name">name</h3>
+                    </div>
+                  </div>
+                  <div class="map-zone__el _2">
+                    <div class="map-zone__box">
+                      <h3 class="map-zone__name">name</h3>
+                    </div>
+                  </div>
+                  <div class="map-zone__el _3">
+                    <div class="map-zone__box">
+                      <h3 class="map-zone__name">name</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="map__img"><img class="main" src="./assets/images/map/main.jpg"/><img class="_1 _fix" src="./assets/images/map/1.jpg"/><img class="_2 _fix" src="./assets/images/map/2.jpg"/><img class="_3 _fix" src="./assets/images/map/3.jpg"/></div>
+              </div>
+            </div>
+          </section>
+          <section class="_sec lore-history">
+            <div class="container">
+              <ul class="lore-history__list">
+                <li class="lore-history__el" id="map_ice">
+                  <h3 class="title _grad">The ICE Wastelands of Eigu</h3>
+                  <div class="lore-history__block"><img src="./assets/images/map/1.png"/>
+                    <p class="lore-text">The ice wastelands of Eigu are located in the north of the first plane.The extreme cold that prevails in these areas has penetrated sodeeply into the ground that it has begun to provoke strong seismic activity.Because of this, huge faults resembling snow-covered, incredibly deep canyons as wellas smaller faults called ‘cracks’ or ‘crusts’ can be found in the ice wastelands.</p>
+                    <p class="lore-text">These faults are not just a natural anomaly, but a valuable resource, because they provide coaland titanite* to the few inhabitants of the wastelands. On either side of the largest fault are the astral citiesof Nei Alurg and Tetraglas. They are populated by mechanical scientists, the godless, and exiled mages.</p>
+                    <p class="lore-text">Far from the faults, only the fittest survive. These are the lands of giants,dangerous predators and creeping plants.</p>
+                    <p class="lore-text">Wanderes (especially demons) are treated with apprehension in the wastelands,for warm flesh and good equipment make attractive prey.</p>
+                  </div>
+                </li>
+                <li class="lore-history__el" id="map_keizu">
+                  <h3 class="title _grad">The Keizu Wildlands</h3>
+                  <div class="lore-history__block"><img src="./assets/images/map/2.png"/>
+                    <p class="lore-text">The Keizu Wildlands are the first hunting ground of the first plane forthose who eat like humans (or eat humans)</p>
+                    <p class="lore-text">The animals and inferior demons who inhabit these places usually possesspowerful limbs to help them traverse great distances and  escape predators that hunt themamong the high forests and endless pastures. Among the flora of the wild lands you can findmany aggressive plants, which appeared due to the strong influence of the demons of thesecond plane. The ‘Christian's Bonds’ and the ‘Tears of Villa’ are considered to be especially dangerous.</p>
+                    <p class="lore-text">It is unknown whether it was the plants that kept the astral cities from filling all possible territory and only letthem locate along the trade route, but the fact remains that in a large area you will not meet many settlers,which is why the lands of Keizu are called ‘Wild’.</p>
+                  </div>
+                </li>
+                <li class="lore-history__el" id="map_sun-scorched">
+                  <h3 class="title _grad">SUN-SCORCHED LANDS OF TGWA</h3>
+                  <div class="lore-history__block"><img src="./assets/images/map/3.png"/>
+                    <p class="lore-text">It is believed that the Tgwa Desert used to be an incredibly fertile area. Mirinitsa seedlings alone were enoughto provide bread for all the nearby astral cities, including the capital of the first plane, located inthe middle of these lands.</p>
+                    <p class="lore-text">Due to constant earthquakes and volcanic eruptions of the second plane, the surface began to change.Hills and mountains formed in Tgwa (the very centre of the first plane) and all the big rivers merged intoone, starting to form a huge spiral around it. The heat emanating from beneath the earth dried upthe underground waters. The fertile soil turned into desert, the fields into dunes, and the beautiful forestsinto terrible trees warped by the drought.</p>
+                    <p class="lore-text">Now only madmen come back here, apart from travelers who strive to conquer the black castleand find a way into the second plane.</p>
+                    <p class="lore-text">In the immense heat, only the fittest survive, and that’s what makes the locals some of themost dangerous inhabitants of Pandemonium.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="_sec lore-last">
+            <div class="container">
+              <h2 class="lng-lore-last_title title _grad"> </h2><a class="lng-btn_bestiary btn page-btns_bestiary" href="#s_intro">bestiary</a><a class="title _grad page-btns_home" href="#s_intro"> <span class="lng-btn_lore_home"></span><img src="./assets/images/Vector.svg"/></a>
+            </div>
+          </section>
+        </div>
+        <div class="page base">
+          <section class="s_intro" id="s_intro">
+            <div class="container intro">
+              <div class="btn-theme">
+                      <svg class="_moon">
+                        <use xlink:href="./assets/icons/svg/sprite.svg#moon"></use>
+                      </svg>
+                      <svg class="_sun">
+                        <use xlink:href="./assets/icons/svg/sprite.svg#sun"></use>
+                      </svg>
+              </div><a class="intro__logo" href="">
+                <h1 class="main-title">Pandemonium</h1><img class="_1" src="./assets/images/Ellipse 11.png"/><img class="_2" src="./assets/images/Ellipse 10.png"/></a>
+              <div class="intro__block">
+                <div class="intro__box">
+                  <p class="text lng-intro_text">Welcome to Pandemonium, a world beyond the valley of the shadow of death. Lands in which there is an endless war for power. It is here that armies of fierce demons and beautiful demonettes clash under the leadership of future lords.</p><img class="img-t-none" src="./assets/images/main_img.png"/>
+                </div><a class="lng-btn_nft btn" target="blanck" href="https://neftyblocks.com/c/pandemoniumw">Find us on atomichub</a>
+              </div>
+            </div>
+          </section>
+          <section class="_sec s_hover-img-bg">
+            <div class="container">
+              <h2 class="lng-hover_img_bg_title title">Become the Lord of the Underworld! Pandemonium are original nft cards with varying degrees of rarity, intended for collecting. Limited, unique and hot as hell.</h2>
+              <div class="hover-img-bg">
+                <div class="hover-img-bg__box _fix"><img src="./assets/images/bg_img_1.jpg"/></div>
+                <div class="hover-img-bg__box"><img src="./assets/images/bg_img_2.jpg"/></div>
+              </div>
+              <div class="hr"></div>
+            </div>
+          </section>
+          <section class="s_info" id="s_info">
+            <div class="container">
+              <div class="telegram-block">
+                      <svg class="_l">
+                        <use xlink:href="./assets/icons/svg/sprite.svg#telegram_arr"></use>
+                      </svg>
+                      <svg class="_r">
+                        <use xlink:href="./assets/icons/svg/sprite.svg#telegram_arr"></use>
+                      </svg>
+                <h2 class="lng-s_info_grad_1 title _grad">Join our telegram community</h2>
+                <p class="lng-s_info_text_1 text _main">Your time has come!</p>
+                <p class="lng-s_info_text_2 text _fl">Become the strongest hero of Pandemonium by subscribing to our telegram channel! News, events and special offers are waiting for you!</p>
+                <div class="telegram-block__btn"><a class="btn" href="https://t.me/pandemoniumw_bot" target="blanck"><span class="lng-btn_bot"></span></a>
+                        <svg>
+                          <use xlink:href="./assets/icons/svg/sprite.svg#telegram"></use>
+                        </svg>
+                </div>
+              </div>
+              <div class="hr"></div>
+              <div class="s_info__block">
+                <h2 class="lng-s_info_title_1 title">This is just the beginning. We're releasing the first batch of our limited edition cards with Pretty Naiad.</h2>
+                <p class="lng-s_info_text_3 text _fl">Naiad is the younger demoness of the rivers. It controls the movement of matter. Naiad rules from the waters of the Styx to the Great Lava Flow of the Underworld. She loves good jokes. <span class="_bold">Attention!</span> Beauty Naiad can burn you with one glance.</p>
+                <h2 class="lng-s_info_grad_2 title _grad">You can find more information abou magical creatures in our bestiary</h2><a class="lng-btn_bestiary page-btns_bestiary btn" href="#s_intro">Bestiary</a>
+              </div>
+              <div class="hr"></div>
+            </div>
+          </section>
+          <section class="s_cards">
+            <div class="container">
+              <h2 class="lng-s_card_title_1 title">1-th pack</h2>
+              <div class="splide" id="slider-cards_1">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <div class="card">
+                        <button class="flip"></button>
+                        <div class="front"><img src="./assets/images/pack_1/1.png"/></div>
+                        <div class="back"><img src="./assets/images/pack_1/1.png"/>
+                          <div class="back__block">
+                            <h5 class="title">name</h5>
+                            <p class="text scroll_1">content </p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="card">
+                        <button class="flip"></button>
+                        <div class="front"><img src="./assets/images/pack_1/2.png"/></div>
+                        <div class="back"><img src="./assets/images/pack_1/2.png"/>
+                          <div class="back__block">
+                            <h5 class="title">name</h5>
+                            <p class="text scroll_1">content </p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="card">
+                        <button class="flip"></button>
+                        <div class="front"><img src="./assets/images/pack_1/3.png"/></div>
+                        <div class="back"><img src="./assets/images/pack_1/3.png"/>
+                          <div class="back__block">
+                            <h5 class="title">name</h5>
+                            <p class="text scroll_1">content </p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="card">
+                        <button class="flip"></button>
+                        <div class="front"><img src="./assets/images/pack_1/4.png"/></div>
+                        <div class="back"><img src="./assets/images/pack_1/4.png"/>
+                          <div class="back__block">
+                            <h5 class="title">name</h5>
+                            <p class="text scroll_1">content </p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="card">
+                        <button class="flip"></button>
+                        <div class="front"><img src="./assets/images/pack_1/5.png"/></div>
+                        <div class="back"><img src="./assets/images/pack_1/5.png"/>
+                          <div class="back__block">
+                            <h5 class="title">name</h5>
+                            <p class="text scroll_1">content </p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="hr"></div>
+              <h2 class="title lng-s_card_title_2">2-th pack</h2>
+              <div class="splide" id="slider-cards_2">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <div class="card">
+                        <button class="flip"></button>
+                        <div class="front"><img src="./assets/images/pack_2/1.png"/></div>
+                        <div class="back"><img src="./assets/images/pack_2/1.png"/>
+                          <div class="back__block">
+                            <h5 class="title">name</h5>
+                            <p class="text scroll_1">content</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="card">
+                        <button class="flip"></button>
+                        <div class="front"><img src="./assets/images/pack_2/2.png"/></div>
+                        <div class="back"><img src="./assets/images/pack_2/2.png"/>
+                          <div class="back__block">
+                            <h5 class="title">name</h5>
+                            <p class="text scroll_1">content</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="card">
+                        <button class="flip"></button>
+                        <div class="front"><img src="./assets/images/pack_2/3.png"/></div>
+                        <div class="back"><img src="./assets/images/pack_2/3.png"/>
+                          <div class="back__block">
+                            <h5 class="title">name</h5>
+                            <p class="text scroll_1">content</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="card">
+                        <button class="flip"></button>
+                        <div class="front"><img src="./assets/images/pack_2/4.png"/></div>
+                        <div class="back"><img src="./assets/images/pack_2/4.png"/>
+                          <div class="back__block">
+                            <h5 class="title">name</h5>
+                            <p class="text scroll_1">content</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="card">
+                        <button class="flip"></button>
+                        <div class="front"><img src="./assets/images/pack_2/5.png"/></div>
+                        <div class="back"><img src="./assets/images/pack_2/5.png"/>
+                          <div class="back__block">
+                            <h5 class="title">name</h5>
+                            <p class="text scroll_1">content</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="hr"></div>
+            </div>
+          </section>
+          <section class="_sec s_card-box">
+            <div class="container">
+              <div class="card-box">
+                <div class="card-box__block"><img src="./assets/images/card_1.png"/><img class="_fix" src="./assets/images/pack_1/1.png"/></div>
+                <div class="card-box__block"><img src="./assets/images/card_2.png"/><img class="_fix" src="./assets/images/pack_2/1.png"/></div>
+              </div><a class="btn lng-btn_nft" target="blanck" href="https://neftyblocks.com/c/pandemoniumw"> Find us on atomichub</a>
+              <div class="hr"></div>
+            </div>
+          </section>
+          <section class="s_roadmap" id="s_roadmap">
+            <div class="container" id="roadmap_cont">
+              <h2 class="title">roadmap</h2>
+            </div>
+          </section>
+          <section class="s_team" id="s_team">
+            <div class="hr"></div>
+            <div class="container">
+              <h2 class="lng-s_team_title title">our team</h2>
+              <div class="splide team">
+                <div class="splide__track">
+                  <ul class="splide__list team__list">
+                    <li class="splide__slide">
+                      <div class="team__el">
+                        <!--img(src=`./assets/images/team/${el}.png`)-->
+                        <div class="info">
+                          <div class="name">name</div>
+                          <p class="work">work</p>
+                          <p class="text scroll_1">text</p>
+                        </div>
+                        <button class="more"></button>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="team__el">
+                        <!--img(src=`./assets/images/team/${el}.png`)-->
+                        <div class="info">
+                          <div class="name">name</div>
+                          <p class="work">work</p>
+                          <p class="text scroll_1">text</p>
+                        </div>
+                        <button class="more"></button>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="team__el">
+                        <!--img(src=`./assets/images/team/${el}.png`)-->
+                        <div class="info">
+                          <div class="name">name</div>
+                          <p class="work">work</p>
+                          <p class="text scroll_1">text</p>
+                        </div>
+                        <button class="more"></button>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="team__el">
+                        <!--img(src=`./assets/images/team/${el}.png`)-->
+                        <div class="info">
+                          <div class="name">name</div>
+                          <p class="work">work</p>
+                          <p class="text scroll_1">text</p>
+                        </div>
+                        <button class="more"></button>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="team__el">
+                        <!--img(src=`./assets/images/team/${el}.png`)-->
+                        <div class="info">
+                          <div class="name">name</div>
+                          <p class="work">work</p>
+                          <p class="text scroll_1">text</p>
+                        </div>
+                        <button class="more"></button>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="hr"></div>
+            </div>
+          </section>
+          <section class="s_about" id="s_about">
+            <div class="container">
+              <h2 class="lng-s_about_title_1 title">about us</h2>
+              <p class="lng-s_about_text_1 text">We are a young team united by common interests and game development, with rich experience in the mobile market. Our project is a fantasy meta–universe with references to things we all love, bulit on a blockchain system using original NFT cards.</p>
+              <h3 class="lng-s_about_title_2 title">our story</h3>
+              <p class="lng-s_about_text_2 text">In June 2021, a group of programmers and designers already working on mobile games turn their eyes on the blockchain system. It turned out that all of us bought NFT cards for collectible or blockchain games. Games cannot develop without technology, and technology is well promoted through games. We have all the potential to create new interesting products with the lastest technology.</p>
+              <h3 class="lng-s_about_title_3 title">our mission</h3>
+              <p class="lng-s_about_text_3 text">The priority for us is to use and popularize modern technologies and create games. We believe that the blockchain system is the future.</p>
+            </div>
+          </section>
+        </div>
+        <div class="page bestiary">
+          <section class="bestiary-first-sec _sec" id="bestiary-page">
+            <div class="container">
+              <h1 class="lng-bestiary_main_title title _l">welcome to the panedonium bestiary</h1>
+              <div class="bestiary-intro">
+                <div class="bestiary-intro__block"><img class="_absolute" src="./assets/images/pack_1/1.png"/><img class="_static" src="./assets/images/pack_2/1.png"/><img class="_absolute" src="./assets/images/pack_1/2.png"/></div>
+                <div class="bestiary-intro__block"><img src="./resources/icons/wing.svg"/><img src="./resources/icons/wing.svg"/></div>
+              </div>
+            </div>
+          </section>
+          <section class="bestiary-list _sec">
+            <div class="container">
+              <h2 class="lng-pack_1_title title _grad">mermaid naiads</h2>
+              <ul class="bestiary-list__list" id="bestiary-pack_1">
+                <li class="bestiary-list__el"><img src="./assets/images/pack_1/1.png"/>
+                  <h3 class="title">Neyada’s older sister</h3>
+                  <p class="text scroll_1">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</p>
+                  <div class="hr"></div>
+                </li>
+                <li class="bestiary-list__el"><img src="./assets/images/pack_1/2.png"/>
+                  <h3 class="title">Neyada’s older sister</h3>
+                  <p class="text scroll_1">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</p>
+                  <div class="hr"></div>
+                </li>
+                <li class="bestiary-list__el"><img src="./assets/images/pack_1/3.png"/>
+                  <h3 class="title">Neyada’s older sister</h3>
+                  <p class="text scroll_1">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</p>
+                  <div class="hr"></div>
+                </li>
+                <li class="bestiary-list__el"><img src="./assets/images/pack_1/4.png"/>
+                  <h3 class="title">Neyada’s older sister</h3>
+                  <p class="text scroll_1">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</p>
+                  <div class="hr"></div>
+                </li>
+                <li class="bestiary-list__el"><img src="./assets/images/pack_1/5.png"/>
+                  <h3 class="title">Neyada’s older sister</h3>
+                  <p class="text scroll_1">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</p>
+                  <div class="hr"></div>
+                </li>
+              </ul>
+              <h2 class="lng-pack_2_title title _grad">Second pack of cards</h2>
+              <ul class="bestiary-list__list" id="bestiary-pack_2">
+                <li class="bestiary-list__el"><img src="./assets/images/pack_1/1.png"/>
+                  <h3 class="title">Neyada’s older sister</h3>
+                  <p class="text scroll_1">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</p>
+                  <div class="hr"></div>
+                </li>
+                <li class="bestiary-list__el"><img src="./assets/images/pack_1/2.png"/>
+                  <h3 class="title">Neyada’s older sister</h3>
+                  <p class="text scroll_1">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</p>
+                  <div class="hr"></div>
+                </li>
+                <li class="bestiary-list__el"><img src="./assets/images/pack_1/3.png"/>
+                  <h3 class="title">Neyada’s older sister</h3>
+                  <p class="text scroll_1">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</p>
+                  <div class="hr"></div>
+                </li>
+                <li class="bestiary-list__el"><img src="./assets/images/pack_1/4.png"/>
+                  <h3 class="title">Neyada’s older sister</h3>
+                  <p class="text scroll_1">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</p>
+                  <div class="hr"></div>
+                </li>
+                <li class="bestiary-list__el"><img src="./assets/images/pack_1/5.png"/>
+                  <h3 class="title">Neyada’s older sister</h3>
+                  <p class="text scroll_1">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).</p>
+                  <div class="hr"></div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div class="page FAQ">
+          <section class="s_FAQ-first _sec">
+            <div class="container">
+              <h2 class="lng-FAQ-first-title_1 title _grad">КОШЕЛЕК WAX</h2>
+              <p class="lng-FAQ-first-text_1 text _center">Для полного погружения в мир Пандемониума вам понадобится кошелек WAX. В этом гайде мы подробно расскажем обо всех базовых функциях кошелька, пошагово покажем процесс регистрации и пополнения, а также поговорим о возможных проблемах и способах их решения.</p>
+              <h4 class="lng-FAQ-first-title_2 title _grad">Итак, начнем с определений:</h4>
+              <p class="lng-FAQ-first-text_2_1 text _center"><span class="_bold">WAX (Worldwide Asset eXchange) </span>– это блокчейн, созданный исключительно под NFT.</p>
+              <p class="lng-FAQ-first-text_2_2 text _center">Сам <span class="_bold">WAX Cloud Wallet</span>, который нам нужен, представляет из себя облачный кошелек, ориентированный на NFT. Он прост и удобен в использовании и обеспечивает комфортное взаимодействие с маркетплейсами, играми и приложениями.</p>
+              <p class="lng-FAQ-first-text_2_3 text _center">Также существует кошелек <span class="_bold">ANCHOR</span>, более безопасный, но также и более сложный для пользователя. К тому же, его не поддерживают некоторые WAX-приложения, поэтому мы сосредоточимся именно на WAX Cloud Wallet.</p>
+            </div>
+            <div class="hr"></div>
+          </section>
+          <section class="_sec s_FAQ-roadmap">
+            <div class="container">
+              <h4 class="lng-FAQ-roadmap-title_1 title _grad">Как зарегистрироваться?</h4>
+              <div class="FAQ-roadmap">
+                <div class="road" data-aos="data-aos">
+                  <div class="road__block">
+                    <p class="lng-FAQ-roadmap_road_1_1 text">Заходим на официальный сайт https://all-access.wax.io/</p>
+                    <p class="lng-FAQ-roadmap_road_1_2 text">Сервис предложит вам войти с помощью имеющейся учетной записи одной из поддерживаемых социальных сетей. Этим можно пользоваться в дальнейшем, а сейчас кликаем Sign Up For Account.</p>
+                  </div>
+                  <div class="hr"></div>
+                  <div class="point" style="background: linear-gradient(125deg, #643E86 0%, #32246B 100%);">
+                    <div class="point__index">1</div>
+                  </div>
+                </div>
+                <div class="road" data-aos="data-aos">
+                  <div class="road__block">
+                    <p class="lng-FAQ-roadmap_road_2 text">Вводим адрес электронной почты и создаем пароль.</p>
+                  </div>
+                  <div class="hr"></div>
+                  <div class="point" style="background: linear-gradient(125deg, #643E86 0%, #32246B 100%);">
+                    <div class="point__index">2</div>
+                  </div>
+                </div>
+                <div class="road" data-aos="data-aos">
+                  <div class="road__block">
+                    <p class="lng-FAQ-roadmap_road_3 text">После этого вам на почту придет письмо для подтверждения аккаунта. Переходим по ссылке из этого письма.</p>
+                  </div>
+                  <div class="hr"></div>
+                  <div class="point" style="background: linear-gradient(125deg, #643E86 0%, #32246B 100%);">
+                    <div class="point__index">3</div>
+                  </div>
+                </div>
+                <div class="road" data-aos="data-aos">
+                  <div class="road__block">
+                    <p class="lng-FAQ-roadmap_road_4 text">Соглашаемся с правилами пользования. Логинимся</p>
+                  </div>
+                  <div class="hr"></div>
+                  <div class="point" style="background: linear-gradient(125deg, #643E86 0%, #32246B 100%);">
+                    <div class="point__index">4</div>
+                  </div>
+                </div>
+                <div class="road" data-aos="data-aos">
+                  <div class="road__block">
+                    <p class="lng-FAQ-roadmap_road_5 text">После этого можно (и рекомендовано!) установить двухфакторную идентификацию. Кликаем на значок настроек в правом нижнем углу -&gt; Account Security -&gt; 2-Factor Authentication.</p>
+                  </div>
+                  <div class="hr"></div>
+                  <div class="point" style="background: linear-gradient(125deg, #643E86 0%, #32246B 100%);">
+                    <div class="point__index">5</div>
+                  </div>
+                </div>
+              </div>
+              <p class="text"><span class="lng-FAQ-roadmap-text_1 _bold">Готово! В этом и заключается одно из главных преимуществ блокчейна WAX – простота создания аккаунта.</span></p>
+              <div class="hr"></div>
+            </div>
+          </section>
+          <section class="s_FAQ-interface _sec">
+            <div class="container">
+              <h4 class="lng-FAQ-interface-title title _grad">Интерфейс</h4>
+              <div class="FAQ-interface">
+                <div class="FAQ-interface__block">
+                  <div class="FAQ-interface__box">
+                    <div class="FAQ-interface__index">1</div>
+                    <p class="lng-FAQ-interface_first_1_1 text"></p>
+                    <p class="lng-FAQ-interface_first_1_2 text"></p>
+                  </div>
+                  <div class="FAQ-interface__box">
+                    <div class="FAQ-interface__index">2</div>
+                    <p class="lng-FAQ-interface_first_2_1 text"></p>
+                    <p class="lng-FAQ-interface_first_2_2 text"></p>
+                    <p class="lng-FAQ-interface_first_2_3 text"></p>
+                    <p class="lng-FAQ-interface_first_2_4 text"></p>
+                    <p class="lng-FAQ-interface_first_2_5 text"></p>
+                    <p class="lng-FAQ-interface_first_2_6 text"></p>
+                    <p class="lng-FAQ-interface_first_2_7 text"></p>
+                  </div>
+                </div>
+                <div class="FAQ-interface__block">
+                  <div class="FAQ-interface__box">
+                    <div class="FAQ-interface__index">1</div>
+                    <p class="lng-FAQ-interface_second_1 text"></p>
+                  </div>
+                  <div class="FAQ-interface__box">
+                    <div class="FAQ-interface__index">2</div>
+                    <p class="lng-FAQ-interface_second_2 text"></p>
+                  </div>
+                  <div class="FAQ-interface__box">
+                    <div class="FAQ-interface__index">3</div>
+                    <p class="lng-FAQ-interface_second_3 text"></p>
+                  </div>
+                  <div class="FAQ-interface__box">
+                    <div class="FAQ-interface__index">4</div>
+                    <p class="lng-FAQ-interface_second_4 text"></p>
+                  </div>
+                  <div class="FAQ-interface__box">
+                    <div class="FAQ-interface__index">5</div>
+                    <p class="lng-FAQ-interface_second_5 text"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="s_FAQ-how _sec">
+            <div class="container">
+              <div class="FAQ-how">
+                <h4 class="lng-FAQ-how-title title">Как пополнить?</h4>
+                <div class="FAQ-how__box">
+                  <p class="lng-FAQ-how-text_1 text">1. Для пополнения кошелька необходимо перейти нажать Buy WAXP и перейти на любую биржу, где торгуется WAX.</p>
+                </div>
+                <div class="FAQ-how__box">
+                  <p class="lng-FAQ-how-text_2 text">2. Покупаем нужное количество WAXP на этой бирже и нажимаем Вывести.</p>
+                </div>
+                <div class="FAQ-how__box">
+                  <p class="lng-FAQ-how-text_3 text">3. Отправляем их себе на аккаунт. Для этого в форме вывода необходимо указать ваш адрес кошелька WAX.</p>
+                  <p class="lng-FAQ-how-text_4 text"><span class="_red">Внимание: </span>без верификации за раз можно вывести максимум 50 токенов. Токены отобразятся в верхнем левом углу в WAXP Balance. Транзакция занимает до 15 минут.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="s_FAQ-resources _sec">
+            <div class="container">
+              <div class="FAQ-resources">
+                <h2 class="lng-FAQ-resources-title_1 title _grad">Resources</h2>
+                <div class="FAQ-resources__box">
+                  <p class="lng-FAQ-resources-text-1 text">Поговорим о ресурсах вашей учетной записи. Всего есть три ресурса, которые используются блокчейном WAX для его функционирования: RAM, CPU, NET.</p>
+                  <p class="lng-FAQ-resources-text-2 text">RAM — память блокчейна для хранения ваших NFT. Это, безусловно, самый важный ресурс для коллекционеров NFT.</p>
+                  <p class="lng-FAQ-resources-text-3 text">Другие два ресурса по большей части используются для записи в блокчейн, формирования транзакций, пересылки средств.</p>
+                  <p class="lng-FAQ-resources-text-4 text">CPU – этот ресурс отвечает за время проведения операции. Если расход показателя CPU доходит до 100%, вы больше не можете совершать транзакции на блокчейне WAX.</p>
+                  <p class="lng-FAQ-resources-text-5 text">NET — это сеть. Если необходимо передавать данные, тратится этот параметр.</p>
+                </div>
+                <div class="hr"></div>
+                <div class="FAQ-resources__box">
+                  <h4 class="lng-FAQ-resources-title_2 title _grad">Возможные проблемы и их решения</h4>
+                  <p class="lng-FAQ-resources-text_1 text">Независимо от количества просмотренных туториалов, вы можете столкнуться с совершенно неожиданной сложностью. Здесь главное не паниковать и не спешить бросаться гаджетами в стену. Рассмотрим самые частые проблемы пользователей:</p>
+                </div>
+                <div class="FAQ-resources__box">
+                  <h5 class="lng-FAQ-resources-title_3 title">Проблемы с входом.</h5>
+                  <p class="lng-FAQ-resources-text_2 text">Итак, вы пытаетесь залогиниться в WAX Cloud Wallet, но страница вcё время обновляется, а загрузка не происходит.</p>
+                  <h6 class="lng-FAQ-resources-title_4 title _grad">Что делать?</h6>
+                  <div class="FAQ-resources__box _left">
+                    <p class="lng-FAQ-resources-text_3_1 text">Колдовать, как можете. Может сработать что угодно из этого:</p>
+                    <p class="lng-FAQ-resources-text_3_2 text">— Почистить кэш.</p>
+                    <p class="lng-FAQ-resources-text_3_3 text">— Открыть новое окно.</p>
+                    <p class="lng-FAQ-resources-text_3_4 text">— Включить режим инкогнито.</p>
+                    <p class="lng-FAQ-resources-text_3_5 text">— Проверить соединение с интернетом.</p>
+                    <p class="lng-FAQ-resources-text_3_6 text">— Включить/отключить VPN.</p>
+                    <p class="lng-FAQ-resources-text_3_7 text">— Открыть страницу в другом браузере.</p>
+                  </div>
+                  <p class="lng-FAQ-resources-text_4 text">Если это не дало результатов, заглядываем сюда: https://all-access.wax.io//logout. Когда вы кликнете по этой ссылке, произойдет forced logout, загрузка страницы прекратится, и можно пробовать снова.</p>
+                </div>
+                <div class="hr"></div>
+                <div class="FAQ-resources__box">
+                  <h5 class="lng-FAQ-resources-title_5 title">Проблемы с ресурсами.</h5>
+                  <p class="lng-FAQ-resources-text_5 text">Нехватка ресурсов — самая распространенная проблема.</p>
+                  <h6 class="lng-FAQ-resources-title_6 title _grad">Что делать?</h6>
+                  <h6 class="lng-FAQ-resources-title_7 title _circle">Нехватка CPU и NET</h6>
+                  <p class="lng-FAQ-resources-text_6 text">Если расход показателя CPU доходит до 100%, вы больше не можете совершать транзакции на блокчейне WAX.</p>
+                  <p class="lng-FAQ-resources-text_7 text">Чтобы расширить емкость ресурса CPU, необходимо застейкать WAX. Для этого нажмите на Resources, выберите ресурс -&gt; введите количество WAX -&gt; нажмите Stake.</p>
+                  <p class="lng-FAQ-resources-text_8 text">Те же самые действия выполняем и для NET.</p>
+                  <h6 class="lng-FAQ-resources-title_8 title _circle">Нехватка RAM</h6>
+                  <p class="lng-FAQ-resources-text_9 text">Память забивается в зависимости от количества NFT, которое вы храните у себя в коллекции.</p>
+                  <p class="lng-FAQ-resources-text_10 text">В отличие от предыдущих ресурсов, RAM не зависит от стейкинга, вы приобретаете и продаете RAM. Для этого нажмите на Resources, выберите RAM -&gt; введите количество WAX -&gt; нажмите Buy.Также все эти действия можно проделать на https://wax.bloks.io/ . Логинимся, заходим в Wallet и в меню слева выбираем действие.</p>
+                  <p class="lng-FAQ-resources-text_11 text">Также все эти действия можно проделать на https://wax.bloks.io/ . Логинимся, заходим в Wallet и в меню слева выбираем действие.</p>
+                </div>
+                <div class="hr"></div>
+                <div class="FAQ-resources__box">
+                  <p class="lng-FAQ-resources-text_12 text">Своевременный стейкинг WAXP для расширения емкости ресурсов и покупка дополнительной памяти RAM обеспечит вам комфортное пользование WAX Cloud Wallet, а также удобно и быстрое взаимодействие с маркетплейсами и играми.</p>
+                  <p class="lng-FAQ-resources-text_13 text">И напоследок: Если вы столкнулись с какой-либо проблемой, и ни одно решение вам не помогает, всегда есть вариант заглянуть в дискорд WAX. Присоединяйтесь, слева будет раздел "questions and help". Проверьте, сталкивались ли другие пользователи с вашей проблемой, и попробуйте применить решение, которое им посоветовали.</p>
+                </div>
+                <div class="hr"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <p class="lng-s_footer_text_1 text">Postal address: Russian Federation. <br/>St. Petersburg. Ligovsky prospect 50. <br/>Postal Code: 190000 <br/>STO: Oleg Serdiuk <br/>oleg-s32@yandex.ru <br/></p>
+          <div class="socials">
+            <ul class="socials__list">
+              <li class="socials__el"><a href="https://t.me/pandemonium2021" target="blanck">
+                        <svg>
+                          <use xlink:href="./assets/icons/svg/sprite.svg#telegram"></use>
+                        </svg></a></li>
+              <li class="socials__el"><a href="https://twitter.com/PandemoniumNFT" target="blanck">
+                        <svg>
+                          <use xlink:href="./assets/icons/svg/sprite.svg#twitter"></use>
+                        </svg></a></li>
+            </ul>
+          </div>
+          <p class="lng-s_footer_text_2 text">Pandemoniumw project© 2021. All rights reserved</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

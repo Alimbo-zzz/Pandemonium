@@ -11,9 +11,9 @@ router.get('/', (req, res)=>{
 	res.sendfile(createPath('index'))
 })
 
-router.get('/game', (req, res)=>{
-	res.sendfile(createPath('game'))
-})
+// router.get('/game', (req, res)=>{
+// 	res.sendfile(createPath('game'))
+// })
 
 
 
