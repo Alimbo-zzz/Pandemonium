@@ -1,0 +1,8 @@
+
+.btn._back-home{
+  position: fixed;
+  left: 1em;top: 1em;
+  width: 150px;
+  z-index: 1000;
+}
+

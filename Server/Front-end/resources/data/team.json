@@ -27,16 +27,16 @@
 			}
 		},
 		{
-			"img":"Sanek",
+			"img": "Alim",
 			"en":{
-				"name":"Aleksandr Kalaida",
-				"work": "Project Manager",
-				"about": "Clarity, control </br> and first-person shooters are </br> the key to success👌"
+				"name":"Alim Mambetov",
+				"work": "Front-End developer",
+				"about": "I love going to the gym, developing cool js features and watching movies in the evenings. <br/>Credo: Those who live in the past have no future."
 			},
 			"ru":{
-				"name":"Александр Калайда",
-				"work": "Project Manager",
-				"about": "Четкость, контроль </br> и шутеры от первого </br> лица - залог успеха👌"
+				"name":"Алим Мамбетов",
+				"work": "Front-End developer",
+				"about": "Люблю посещать зал, разрабатывать крутые js фичи и смотреть фильмы по вечерам.<br/> Кредо: тот, кто живет в прошлом, не имеет будущего."
 			}
 		},
 		{
@@ -131,19 +131,6 @@
 			}
 		},
 		{
-			"img": "Alim",
-			"en":{
-				"name":"Alim Mambetov",
-				"work": "Front-End developer",
-				"about": "I love going to the gym, developing cool js features and watching movies in the evenings. <br/>Credo: Those who live in the past have no future."
-			},
-			"ru":{
-				"name":"Алим Мамбетов",
-				"work": "Front-End developer",
-				"about": "Люблю посещать зал, разрабатывать крутые js фичи и смотреть фильмы по вечерам.<br/> Кредо: тот, кто живет в прошлом, не имеет будущего."
-			}
-		},
-		{
 			"img": "Natalya",
 			"en":{
 				"name":"Natalia Posokh",
@@ -154,7 +141,9 @@
 				"name":"Наталья Посох",
 				"work": "Product Manager",
 				"about": "Я управляю проектом Pandemonium во имя Луны🌙 <br/> Надеюсь, он вам понравится так же, как и мне! <br/> Люблю смотреть аниме с моими милыми котиками Тором и Локи после долгого рабочего дня в офисе."
-			}
+			}	
 		}
 	]
 }
+
+
